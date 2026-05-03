@@ -246,20 +246,20 @@ const pointsData = {
     }
 };
 
-// Wikimedia Commons photos for herbs (CC BY-SA / Public Domain)
+// Wikimedia Commons photos for herbs (verified URLs from API)
 const herbPhotos = {
-    ginseng: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Panax_ginseng_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-025.jpg/400px-Panax_ginseng_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-025.jpg",
-    astragalus: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Astragalus_membranaceus_Fisch._ex_Bunge_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-073.jpg/400px-Astragalus_membranaceus_Fisch._ex_Bunge_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-073.jpg",
-    goji: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Goji_berries_drying.jpg/400px-Goji_berries_drying.jpg",
-    reishi: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Ganoderma_lucidum_01.jpg/400px-Ganoderma_lucidum_01.jpg",
-    turmeric: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Turmericroot.jpg/400px-Turmericroot.jpg",
-    chamomile: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Matricaria_chamomilla_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-036.jpg/400px-Matricaria_chamomilla_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-036.jpg",
-    elderberry: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Sambucus_nigra_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-020.jpg/400px-Sambucus_nigra_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-020.jpg",
-    echinacea: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Head_of_Echinacea_purpea.jpg/400px-Head_of_Echinacea_purpea.jpg",
-    valerian: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Valeriana_officinalis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-053.jpg/400px-Valeriana_officinalis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-053.jpg",
-    peppermint: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Mentha_%C3%97_piperita_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-041.jpg/400px-Mentha_%C3%97_piperita_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-041.jpg",
-    ashwagandha: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Withania_somnifera_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-153.jpg/400px-Withania_somnifera_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-153.jpg",
-    lavender: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Lavandula_angustifolia_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-058.jpg/400px-Lavandula_angustifolia_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-058.jpg"
+    ginseng: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/American_Ginseng_2.jpg/500px-American_Ginseng_2.jpg",
+    astragalus: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Astragalus_membranaceus.jpg/500px-Astragalus_membranaceus.jpg",
+    goji: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Goji_berries.jpg/500px-Goji_berries.jpg",
+    reishi: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Ganoderma_lucidum_01.jpg/500px-Ganoderma_lucidum_01.jpg",
+    turmeric: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Curcuma_longa_roots.jpg/500px-Curcuma_longa_roots.jpg",
+    chamomile: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Chamomile%40original_size.jpg/500px-Chamomile%40original_size.jpg",
+    elderberry: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/00_3769_Schwarzen_Holunder_%28Sambucus_nigra%29.jpg/500px-00_3769_Schwarzen_Holunder_%28Sambucus_nigra%29.jpg",
+    echinacea: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/American_lady_on_purple_coneflower_%2874770%29.jpg/500px-American_lady_on_purple_coneflower_%2874770%29.jpg",
+    valerian: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Spotted_longhorn_%28Rutpela_maculata%29_female_on_common_valerian_%28Valeriana_officinalis%29_Ruggeller_Riet.jpg/500px-Spotted_longhorn_%28Rutpela_maculata%29_female_on_common_valerian_%28Valeriana_officinalis%29_Ruggeller_Riet.jpg",
+    peppermint: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Eristalis_arbustorum_%28female%29_on_Peppermint_flowers.jpg/500px-Eristalis_arbustorum_%28female%29_on_Peppermint_flowers.jpg",
+    ashwagandha: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Withania_somnifera_1DS-II_3-7489.jpg/500px-Withania_somnifera_1DS-II_3-7489.jpg",
+    lavender: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Bumblebee_on_Lavender_Blossom.JPG/500px-Bumblebee_on_Lavender_Blossom.JPG"
 };
 
 // Growing habitat info for each herb
