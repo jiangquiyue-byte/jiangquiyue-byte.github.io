@@ -4039,5 +4039,1002 @@
     "modern_research": "Anti-inflammatory and antipruritic effects confirmed in animal studies.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Cryptotympana_atrata.jpg/500px-Cryptotympana_atrata.jpg",
     "ben_cao_ref": "本草纲目: 蝉蜕，甘寒，入肝肺经"
+  },
+  {
+    "id": "human-sediment-crystal",
+    "names": {
+      "en": "Human Sediment Crystal",
+      "zh": "人中白",
+      "zh_pinyin": "Rén Zhōng Bái",
+      "ja": "人中白",
+      "fr": "Sédiment Humain"
+    },
+    "scientific_name": "Homo sapiens (urine crystallized)",
+    "family": "N/A",
+    "origin": [
+      "China"
+    ],
+    "parts_used": [
+      "Urine sediment"
+    ],
+    "nature": "Cold",
+    "flavor": "Salty",
+    "meridians": [
+      "Liver",
+      "Lung",
+      "Stomach"
+    ],
+    "categories": [
+      "special"
+    ],
+    "benefits": {
+      "en": "Clears heat, cools blood, reduces swelling",
+      "zh": "清热凉血，消肿"
+    },
+    "uses": {
+      "en": "Sore throat, bleeding gums, fevers, ulcers",
+      "zh": "咽喉肿痛，牙龈出血，发热，溃疡"
+    },
+    "precautions": {
+      "en": "Use with caution in cold constitutions",
+      "zh": "虚寒体质慎用"
+    },
+    "modern_research": "Contains urea and mineral salts",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/CADAL06200531_%E5%8F%A4%E6%9C%AC%E5%B0%8F%E8%AA%AA%E9%9B%86%E6%88%90%EF%BC%9A%E4%BA%BA%E4%B8%AD%E7%95%AB.djvu/page1-500px-CADAL06200531_%E5%8F%A4%E6%9C%AC%E5%B0%8F%E8%AA%AA%E9%9B%86%E6%88%90%EF%BC%9A%E4%BA%BA%E4%B8%AD%E7%95%AB.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Ben Cao Gang Mu"
+  },
+  {
+    "id": "human-yellow",
+    "names": {
+      "en": "Human Yellow",
+      "zh": "人中黄",
+      "zh_pinyin": "Rén Zhōng Huáng",
+      "ja": "人中黄",
+      "fr": "Jaune Humain"
+    },
+    "scientific_name": "Homo sapiens (feces processed)",
+    "family": "N/A",
+    "origin": [
+      "China"
+    ],
+    "parts_used": [
+      "Processed feces"
+    ],
+    "nature": "Cold",
+    "flavor": "Sweet, Bitter",
+    "meridians": [
+      "Heart",
+      "Stomach"
+    ],
+    "categories": [
+      "special"
+    ],
+    "benefits": {
+      "en": "Clears heat, detoxifies, cools blood",
+      "zh": "清热解毒，凉血"
+    },
+    "uses": {
+      "en": "High fever, delirium, toxic sores, skin infections",
+      "zh": "高热谵妄，疮疡肿毒"
+    },
+    "precautions": {
+      "en": "Extremely rarely used in modern practice",
+      "zh": "现代极少使用"
+    },
+    "modern_research": "Traditional preparation involves 3-year fermentation in bamboo",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Clouded_yellow_Colias_croceus_Ichkeul.jpg/500px-Clouded_yellow_Colias_croceus_Ichkeul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Ben Cao Bei Yao"
+  },
+  {
+    "id": "human-placenta",
+    "names": {
+      "en": "Human Placenta",
+      "zh": "紫河车",
+      "zh_pinyin": "Zǐ Hé Chē",
+      "ja": "紫河車",
+      "fr": "Placenta Humain"
+    },
+    "scientific_name": "Homo sapiens placenta",
+    "family": "N/A",
+    "origin": [
+      "China"
+    ],
+    "parts_used": [
+      "Placenta"
+    ],
+    "nature": "Warm",
+    "flavor": "Sweet, Salty",
+    "meridians": [
+      "Lung",
+      "Liver",
+      "Kidney"
+    ],
+    "categories": [
+      "special"
+    ],
+    "benefits": {
+      "en": "Tonifies Qi and blood, nourishes essence",
+      "zh": "补气养血，益精"
+    },
+    "uses": {
+      "en": "Infertility, chronic weakness, asthma, impotence",
+      "zh": "不孕不育，久病体虚，哮喘，阳痿"
+    },
+    "precautions": {
+      "en": "Ethical concerns; regulated in many countries",
+      "zh": "存在伦理争议"
+    },
+    "modern_research": "Rich in hormones, immunoglobulins, and growth factors",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Human_placenta_just_after_delivery.jpg/500px-Human_placenta_just_after_delivery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Ben Cao Gang Mu"
+  },
+  {
+    "id": "charred-human-hair",
+    "names": {
+      "en": "Charred Human Hair",
+      "zh": "血余炭",
+      "zh_pinyin": "Xuè Yú Tàn",
+      "ja": "血余炭",
+      "fr": "Cheveux Carbonisés"
+    },
+    "scientific_name": "Homo sapiens hair carbonized",
+    "family": "N/A",
+    "origin": [
+      "China"
+    ],
+    "parts_used": [
+      "Carbonized hair"
+    ],
+    "nature": "Neutral",
+    "flavor": "Bitter",
+    "meridians": [
+      "Liver",
+      "Stomach"
+    ],
+    "categories": [
+      "special"
+    ],
+    "benefits": {
+      "en": "Stops bleeding, promotes urination, generates flesh",
+      "zh": "止血，利尿，生肌"
+    },
+    "uses": {
+      "en": "Bleeding, dysuria, chronic ulcers",
+      "zh": "各种出血，癃闭，溃疡久不收口"
+    },
+    "precautions": {
+      "en": "Generally safe; use carbonized form only",
+      "zh": "需炮制后使用"
+    },
+    "modern_research": "Carbonized keratin has hemostatic properties",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/CADAL11102523_%E8%A1%80%E6%9F%93%E9%BB%83%E5%B7%9E.djvu/page1-500px-CADAL11102523_%E8%A1%80%E6%9F%93%E9%BB%83%E5%B7%9E.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Shen Nong Ben Cao Jing"
+  },
+  {
+    "id": "flying-squirrel-feces",
+    "names": {
+      "en": "Flying Squirrel Feces",
+      "zh": "五灵脂",
+      "zh_pinyin": "Wǔ Líng Zhī",
+      "ja": "五霊脂",
+      "fr": "Crotte d'Écureuil Volant"
+    },
+    "scientific_name": "Trogopterus xanthipes",
+    "family": "Petauristidae",
+    "origin": [
+      "Northeast China",
+      "Hebei"
+    ],
+    "parts_used": [
+      "Dried feces"
+    ],
+    "nature": "Warm",
+    "flavor": "Bitter, Sweet, Salty",
+    "meridians": [
+      "Liver",
+      "Spleen"
+    ],
+    "categories": [
+      "special"
+    ],
+    "benefits": {
+      "en": "Activates blood, alleviates pain, stops bleeding",
+      "zh": "活血止痛，止血"
+    },
+    "uses": {
+      "en": "Pain from blood stasis, amenorrhea, bleeding",
+      "zh": "血瘀疼痛，闭经，出血"
+    },
+    "precautions": {
+      "en": "Avoid in pregnancy; incompatible with Ren Shen",
+      "zh": "孕妇忌用，畏人参"
+    },
+    "modern_research": "Contains bile acids and sterols",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Trogopterus_xanthipes.jpg/500px-Trogopterus_xanthipes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Kai Bao Ben Cao"
+  },
+  {
+    "id": "bat-feces",
+    "names": {
+      "en": "Bat Feces",
+      "zh": "夜明砂",
+      "zh_pinyin": "Yè Míng Shā",
+      "ja": "夜明砂",
+      "fr": "Crotte de Chauve-souris"
+    },
+    "scientific_name": "Vespertilio superans",
+    "family": "Vespertilionidae",
+    "origin": [
+      "China",
+      "Japan"
+    ],
+    "parts_used": [
+      "Dried feces"
+    ],
+    "nature": "Cold",
+    "flavor": "Xin",
+    "meridians": [
+      "Liver"
+    ],
+    "categories": [
+      "special"
+    ],
+    "benefits": {
+      "en": "Clears liver, brightens eyes, disperses stasis",
+      "zh": "清肝明目，散瘀"
+    },
+    "uses": {
+      "en": "Night blindness, eye inflammation, cataracts",
+      "zh": "夜盲症，目赤肿痛，白内障"
+    },
+    "precautions": {
+      "en": "Use with caution during pregnancy",
+      "zh": "孕妇慎用"
+    },
+    "modern_research": "Contains uric acid and insect residue",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Vespertilio_sinensis.jpg/250px-Vespertilio_sinensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Shen Nong Ben Cao Jing"
+  },
+  {
+    "id": "rabbit-feces",
+    "names": {
+      "en": "Rabbit Feces",
+      "zh": "望月砂",
+      "zh_pinyin": "Wàng Yuè Shā",
+      "ja": "望月砂",
+      "fr": "Crotte de Lapin"
+    },
+    "scientific_name": "Oryctolagus cuniculus",
+    "family": "Leporidae",
+    "origin": [
+      "China"
+    ],
+    "parts_used": [
+      "Dried feces"
+    ],
+    "nature": "Neutral",
+    "flavor": "Xin",
+    "meridians": [
+      "Liver",
+      "Lung"
+    ],
+    "categories": [
+      "special"
+    ],
+    "benefits": {
+      "en": "Brightens eyes, clears lung heat",
+      "zh": "明目，清肺热"
+    },
+    "uses": {
+      "en": "Night blindness, eye翳膜, cough",
+      "zh": "夜盲，目翳，咳嗽"
+    },
+    "precautions": {
+      "en": "Generally safe",
+      "zh": "一般安全"
+    },
+    "modern_research": "Fiber-rich; traditionally collected under full moon",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/European_rabbit_%28Oryctolagus_cuniculus%29_kitten.jpg/500px-European_rabbit_%28Oryctolagus_cuniculus%29_kitten.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Ben Cao Gang Mu"
+  },
+  {
+    "id": "sparrow-feces",
+    "names": {
+      "en": "Sparrow Feces",
+      "zh": "白丁香",
+      "zh_pinyin": "Bái Dīng Xiāng",
+      "ja": "白丁香",
+      "fr": "Crotte de Moineau"
+    },
+    "scientific_name": "Passer montanus",
+    "family": "Passeridae",
+    "origin": [
+      "China"
+    ],
+    "parts_used": [
+      "Dried feces"
+    ],
+    "nature": "Warm",
+    "flavor": "Ku, Xin",
+    "meridians": [
+      "Liver",
+      "Kidney"
+    ],
+    "categories": [
+      "special"
+    ],
+    "benefits": {
+      "en": "Detoxifies, reduces swelling, disperses accumulation",
+      "zh": "消积解毒，消肿散结"
+    },
+    "uses": {
+      "en": "Carbuncles, throat blockage, food accumulation",
+      "zh": "痈疽，喉痹，食积"
+    },
+    "precautions": {
+      "en": "Use with caution; toxic in large doses",
+      "zh": "慎用，大量有毒"
+    },
+    "modern_research": "Contains uric acid compounds",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Eurasian_tree_sparrow_at_Tenn%C5%8Dji_Park_in_Osaka%2C_December_2015.jpg/500px-Eurasian_tree_sparrow_at_Tenn%C5%8Dji_Park_in_Osaka%2C_December_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Ben Cao Gang Mu"
+  },
+  {
+    "id": "processed-urine-salt",
+    "names": {
+      "en": "Processed Urine Salt",
+      "zh": "秋石",
+      "zh_pinyin": "Qiū Shí",
+      "ja": "秋石",
+      "fr": "Sel d'Urine Traité"
+    },
+    "scientific_name": "Homo sapiens urine + salt",
+    "family": "N/A",
+    "origin": [
+      "China"
+    ],
+    "parts_used": [
+      "Crystallized salt"
+    ],
+    "nature": "Cold",
+    "flavor": "Xian",
+    "meridians": [
+      "Kidney",
+      "Lung"
+    ],
+    "categories": [
+      "special"
+    ],
+    "benefits": {
+      "en": "Nourishes yin, reduces fever, consolidates essence",
+      "zh": "滋阴降火，固精"
+    },
+    "uses": {
+      "en": "Tidal fever, chronic cough, seminal emission",
+      "zh": "潮热，久咳，遗精"
+    },
+    "precautions": {
+      "en": "Modern preparation uses mineral substitution",
+      "zh": "现代多用矿物替代"
+    },
+    "modern_research": "Sodium chloride with mineral compounds",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Y%C3%BC_Chi_-_Lady_on_a_Bench_-_Walters_3522.jpg/500px-Y%C3%BC_Chi_-_Lady_on_a_Bench_-_Walters_3522.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Ben Cao Gang Mu"
+  },
+  {
+    "id": "honey",
+    "names": {
+      "en": "Honey",
+      "zh": "蜂蜜",
+      "zh_pinyin": "Fēng Mì",
+      "ja": "蜂蜜",
+      "fr": "Miel"
+    },
+    "scientific_name": "Apis mellifera",
+    "family": "Apidae",
+    "origin": [
+      "Global"
+    ],
+    "parts_used": [
+      "Honey"
+    ],
+    "nature": "Neutral",
+    "flavor": "Sweet",
+    "meridians": [
+      "Spleen",
+      "Lung",
+      "Large Intestine"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "benefits": {
+      "en": "Moisturizes lungs, detoxifies, nourishes spleen",
+      "zh": "润肺，解毒，补脾"
+    },
+    "uses": {
+      "en": "Cough, dry skin, constipation, wound healing",
+      "zh": "咳嗽，皮肤干燥，便秘，伤口愈合"
+    },
+    "precautions": {
+      "en": "Avoid in infants under 1 year (botulism risk); diabetic caution",
+      "zh": "1岁以下婴儿禁用，糖尿病慎用"
+    },
+    "modern_research": "Antimicrobial, antioxidant, wound healing properties",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Honey_Dale.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "ben_cao_ref": "Shen Nong Ben Cao Jing"
+  },
+  {
+    "id": "royal-jelly",
+    "names": {
+      "en": "Royal Jelly",
+      "zh": "蜂王浆",
+      "zh_pinyin": "Fēng Wáng Jiāng",
+      "ja": "ローヤルゼリー",
+      "fr": "Gelée Royale"
+    },
+    "scientific_name": "Apis mellifera secretion",
+    "family": "Apidae",
+    "origin": [
+      "Global"
+    ],
+    "parts_used": [
+      "Glandular secretion"
+    ],
+    "nature": "Neutral",
+    "flavor": "Sweet, Sour",
+    "meridians": [
+      "Liver",
+      "Kidney"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "benefits": {
+      "en": "Boosts immunity, anti-aging, enhances fertility",
+      "zh": "增强免疫，抗衰老，提高生育力"
+    },
+    "uses": {
+      "en": "Fatigue, infertility, menopause, immune weakness",
+      "zh": "疲劳，不孕，更年期，免疫力低下"
+    },
+    "precautions": {
+      "en": "Allergic reactions possible; avoid in asthma",
+      "zh": "可能过敏，哮喘者慎用"
+    },
+    "modern_research": "Contains royalactin, fatty acids, and B vitamins",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/2-Decenedioic_acid.svg/500px-2-Decenedioic_acid.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Ben Cao Gang Mu"
+  },
+  {
+    "id": "propolis",
+    "names": {
+      "en": "Propolis",
+      "zh": "蜂胶",
+      "zh_pinyin": "Fēng Jiāo",
+      "ja": "プロポリス",
+      "fr": "Propolis"
+    },
+    "scientific_name": "Apis mellifera resin",
+    "family": "Apidae",
+    "origin": [
+      "Global"
+    ],
+    "parts_used": [
+      "Bee glue"
+    ],
+    "nature": "Warm",
+    "flavor": "Bitter, Xin",
+    "meridians": [
+      "Spleen",
+      "Lung"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "benefits": {
+      "en": "Antimicrobial, anti-inflammatory, immune boost",
+      "zh": "抗菌，消炎，增强免疫"
+    },
+    "uses": {
+      "en": "Oral health, wound healing, cold sores, infections",
+      "zh": "口腔健康，伤口愈合，唇疱疹，感染"
+    },
+    "precautions": {
+      "en": "May cause allergic reactions in bee allergy",
+      "zh": "蜂产品过敏者禁用"
+    },
+    "modern_research": "Rich in flavonoids and CAPE (caffeic acid phenethyl ester)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Propolis_in_beehives.jpg/500px-Propolis_in_beehives.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Ben Cao Gang Mu"
+  },
+  {
+    "id": "deer-antler",
+    "names": {
+      "en": "Deer Antler Velvet",
+      "zh": "鹿茸",
+      "zh_pinyin": "Lù Róng",
+      "ja": "鹿茸",
+      "fr": "Bois de Cerf"
+    },
+    "scientific_name": "Cervus nippon / Cervus elaphus",
+    "family": "Cervidae",
+    "origin": [
+      "China",
+      "Russia",
+      "Korea",
+      "New Zealand"
+    ],
+    "parts_used": [
+      "Young antler"
+    ],
+    "nature": "Warm",
+    "flavor": "Sweet, Salty",
+    "meridians": [
+      "Liver",
+      "Kidney"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "benefits": {
+      "en": "Tonifies yang, strengthens bones, nourishes blood",
+      "zh": "补肾壮阳，强筋骨，养血"
+    },
+    "uses": {
+      "en": "Impotence, infertility, weakness, anemia, developmental delays",
+      "zh": "阳痿，不孕，体虚，贫血，发育迟缓"
+    },
+    "precautions": {
+      "en": "Avoid in yin deficiency with heat signs",
+      "zh": "阴虚火旺者忌用"
+    },
+    "modern_research": "Contains IGF-1, collagen, and growth factors",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Meiogyne_pannosa_04.jpg/500px-Meiogyne_pannosa_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Shen Nong Ben Cao Jing"
+  },
+  {
+    "id": "ox-bezoar",
+    "names": {
+      "en": "Ox Bezoar",
+      "zh": "牛黄",
+      "zh_pinyin": "Niú Huáng",
+      "ja": "牛黄",
+      "fr": "Bezoar de Boeuf"
+    },
+    "scientific_name": "Bos taurus gallstone",
+    "family": "Bovidae",
+    "origin": [
+      "China",
+      "India",
+      "Australia"
+    ],
+    "parts_used": [
+      "Gallstone"
+    ],
+    "nature": "Cool",
+    "flavor": "Bitter, Sweet",
+    "meridians": [
+      "Heart",
+      "Liver"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "benefits": {
+      "en": "Clears heat, opens orifices, calms spirit",
+      "zh": "清热，开窍，安神"
+    },
+    "uses": {
+      "en": "High fever, coma, convulsions, sore throat",
+      "zh": "高热昏迷，惊厥，咽喉肿痛"
+    },
+    "precautions": {
+      "en": "Pregnancy contraindicated; expensive and often substituted",
+      "zh": "孕妇忌用，价格昂贵常有替代品"
+    },
+    "modern_research": "Contains bilirubin, bile acids, and cholesterol",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/HK_YTM_%E6%B2%B9%E5%B0%96%E6%97%BA_Yau_Tsim_Mong_%E6%97%BA%E8%A7%92_Mong_Kok_%E5%A5%B6%E8%B7%AF%E8%87%A3%E8%A1%97_6G_Nelson_Street_shop_%E9%BE%8D%E8%B1%90%E9%9B%86%E5%9C%98_Fung_Dispensary_Mall_October_2025_N13P_05.jpg/500px-HK_YTM_%E6%B2%B9%E5%B0%96%E6%97%BA_Yau_Tsim_Mong_%E6%97%BA%E8%A7%92_Mong_Kok_%E5%A5%B6%E8%B7%AF%E8%87%A3%E8%A1%97_6G_Nelson_Street_shop_%E9%BE%8D%E8%B1%90%E9%9B%86%E5%9C%98_Fung_Dispensary_Mall_October_2025_N13P_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Shen Nong Ben Cao Jing"
+  },
+  {
+    "id": "donkey-gelatin",
+    "names": {
+      "en": "Donkey Gelatin",
+      "zh": "阿胶",
+      "zh_pinyin": "Ē Jiāo",
+      "ja": "阿膠",
+      "fr": "Gelatin d'Ane"
+    },
+    "scientific_name": "Equus asinus skin",
+    "family": "Equidae",
+    "origin": [
+      "Shandong, China"
+    ],
+    "parts_used": [
+      "Skin gelatin"
+    ],
+    "nature": "Neutral",
+    "flavor": "Sweet",
+    "meridians": [
+      "Lung",
+      "Liver",
+      "Kidney"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "benefits": {
+      "en": "Tonifies blood, stops bleeding, moisturizes lungs",
+      "zh": "补血止血，润肺"
+    },
+    "uses": {
+      "en": "Anemia, dry cough, uterine bleeding, dizziness",
+      "zh": "贫血，干咳，子宫出血，头晕"
+    },
+    "precautions": {
+      "en": "Avoid with indigestion; may cause bloating",
+      "zh": "消化不良时避免，可能引起腹胀"
+    },
+    "modern_research": "Rich in collagen and amino acids",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Donkey-hide_gelatin_%28E%27jiao%29_slices.jpg/500px-Donkey-hide_gelatin_%28E%27jiao%29_slices.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Shen Nong Ben Cao Jing"
+  },
+  {
+    "id": "musk",
+    "names": {
+      "en": "Musk",
+      "zh": "麝香",
+      "zh_pinyin": "Shè Xiāng",
+      "ja": "麝香",
+      "fr": "Musc"
+    },
+    "scientific_name": "Moschus moschiferus",
+    "family": "Moschidae",
+    "origin": [
+      "Himalayas",
+      "China",
+      "Nepal",
+      "Russia"
+    ],
+    "parts_used": [
+      "Glandular secretion"
+    ],
+    "nature": "Warm",
+    "flavor": "Xin",
+    "meridians": [
+      "Heart",
+      "Spleen",
+      "Liver"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "benefits": {
+      "en": "Opens orifices, activates blood, reduces swelling",
+      "zh": "开窍，活血，消肿"
+    },
+    "uses": {
+      "en": "Coma, pain, tumors, difficult labor",
+      "zh": "昏迷，疼痛，难产"
+    },
+    "precautions": {
+      "en": "Pregnancy contraindicated; synthetic musk now used",
+      "zh": "孕妇禁用，现多用人工麝香"
+    },
+    "modern_research": "Muscone is the active compound; now synthesized",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Muskox_%28Ovibos_moschatus%29_male_Dovrefjell_1.jpg/500px-Muskox_%28Ovibos_moschatus%29_male_Dovrefjell_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Shen Nong Ben Cao Jing"
+  },
+  {
+    "id": "bear-bile",
+    "names": {
+      "en": "Bear Bile",
+      "zh": "熊胆",
+      "zh_pinyin": "Xióng Dǎn",
+      "ja": "熊胆",
+      "fr": "Vésicule Biliaire d'Ours"
+    },
+    "scientific_name": "Ursus thibetanus",
+    "family": "Ursidae",
+    "origin": [
+      "China",
+      "Korea",
+      "Southeast Asia"
+    ],
+    "parts_used": [
+      "Bile"
+    ],
+    "nature": "Cold",
+    "flavor": "Bitter",
+    "meridians": [
+      "Liver",
+      "Gallbladder",
+      "Heart"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "benefits": {
+      "en": "Clears heat, brightens eyes, stops spasms",
+      "zh": "清热，明目，止痉"
+    },
+    "uses": {
+      "en": "Jaundice, gallstones, eye inflammation, febrile seizures",
+      "zh": "黄疸，胆石症，目赤肿痛，高热惊厥"
+    },
+    "precautions": {
+      "en": "Ethical concerns; synthetic ursodeoxycholic acid available",
+      "zh": "存在伦理争议，可用熊去氧胆酸替代"
+    },
+    "modern_research": "Contains ursodeoxycholic acid (UDCA)",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Bear_bile_01.jpg/500px-Bear_bile_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Tang Ben Cao"
+  },
+  {
+    "id": "pearl",
+    "names": {
+      "en": "Pearl",
+      "zh": "珍珠",
+      "zh_pinyin": "Zhēn Zhū",
+      "ja": "真珠",
+      "fr": "Perle"
+    },
+    "scientific_name": "Pteria martensii / Hyriopsis cumingii",
+    "family": "Pteriidae",
+    "origin": [
+      "China",
+      "Japan",
+      "Australia"
+    ],
+    "parts_used": [
+      "Pearl"
+    ],
+    "nature": "Cold",
+    "flavor": "Sweet, Xian",
+    "meridians": [
+      "Heart",
+      "Liver"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "benefits": {
+      "en": "Brightens eyes, calms spirit, clears heat, generates skin",
+      "zh": "明目安神，清热生肌"
+    },
+    "uses": {
+      "en": "Eye disorders, insomnia, skin ulcers, epilepsy",
+      "zh": "目赤翳障，失眠，溃疡，癫痫"
+    },
+    "precautions": {
+      "en": "Generally safe; use powdered form",
+      "zh": "一般安全，研末使用"
+    },
+    "modern_research": "Contains calcium carbonate, conchiolin, and trace minerals",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/500px-1665_Girl_with_a_Pearl_Earring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Ben Cao Gang Mu"
+  },
+  {
+    "id": "seahorse",
+    "names": {
+      "en": "Seahorse",
+      "zh": "海马",
+      "zh_pinyin": "Hǎi Mǎ",
+      "ja": "海馬",
+      "fr": "Hippocampe"
+    },
+    "scientific_name": "Hippocampus spp.",
+    "family": "Syngnathidae",
+    "origin": [
+      "Indo-Pacific",
+      "South China Sea"
+    ],
+    "parts_used": [
+      "Whole dried animal"
+    ],
+    "nature": "Warm",
+    "flavor": "Sweet, Salty",
+    "meridians": [
+      "Liver",
+      "Kidney"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "benefits": {
+      "en": "Tonifies kidney yang, disperses masses, relieves pain",
+      "zh": "补肾壮阳，消癥止痛"
+    },
+    "uses": {
+      "en": "Impotence, infertility, asthma, pain, tumors",
+      "zh": "阳痿，不孕，哮喘，疼痛，癥瘕"
+    },
+    "precautions": {
+      "en": "Pregnancy contraindicated; CITES regulated",
+      "zh": "孕妇禁用，受CITES公约保护"
+    },
+    "modern_research": "Contains anti-fatigue and anti-aging compounds",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Hippocampus_hippocampus_%28on_Ascophyllum_nodosum%29.jpg/500px-Hippocampus_hippocampus_%28on_Ascophyllum_nodosum%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Ben Cao Gang Mu"
+  },
+  {
+    "id": "moringa",
+    "names": {
+      "en": "Moringa",
+      "zh": "辣木",
+      "zh_pinyin": "Là Mù",
+      "ja": "モリンガ",
+      "fr": "Moringa"
+    },
+    "scientific_name": "Moringa oleifera",
+    "family": "Moringaceae",
+    "origin": [
+      "India",
+      "Africa"
+    ],
+    "parts_used": [
+      "Leaves",
+      "Seeds",
+      "Pods"
+    ],
+    "nature": "Warm",
+    "flavor": "Sweet, Pungent",
+    "meridians": [
+      "Spleen",
+      "Liver",
+      "Kidney"
+    ],
+    "categories": [
+      "nutrition"
+    ],
+    "benefits": {
+      "en": "Anti-inflammatory, blood sugar regulation, rich in nutrients",
+      "zh": "抗炎，调节血糖，营养丰富"
+    },
+    "uses": {
+      "en": "Malnutrition, diabetes, inflammation, anemia",
+      "zh": "营养不良，糖尿病，炎症，贫血"
+    },
+    "precautions": {
+      "en": "Root and bark should be avoided; may interact with diabetes meds",
+      "zh": "根和树皮避免使用，可能与降糖药相互作用"
+    },
+    "modern_research": "Contains all essential amino acids, rich in vitamins and minerals",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flower_of_Moringa_oleifera.jpg/500px-Flower_of_Moringa_oleifera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Ayurvedic tradition"
+  },
+  {
+    "id": "psyllium",
+    "names": {
+      "en": "Psyllium",
+      "zh": "车前子壳",
+      "zh_pinyin": "Chē Qián Zǐ Ké",
+      "ja": "サイリウム",
+      "fr": "Psyllium"
+    },
+    "scientific_name": "Plantago ovata",
+    "family": "Plantaginaceae",
+    "origin": [
+      "India",
+      "Mediterranean"
+    ],
+    "parts_used": [
+      "Seed husk"
+    ],
+    "nature": "Neutral",
+    "flavor": "Sweet, Bland",
+    "meridians": [
+      "Large Intestine",
+      "Small Intestine",
+      "Kidney"
+    ],
+    "categories": [
+      "digestion"
+    ],
+    "benefits": {
+      "en": "Bulk-forming laxative, lowers cholesterol, regulates blood sugar",
+      "zh": "润肠通便，降低胆固醇，调节血糖"
+    },
+    "uses": {
+      "en": "Constipation, IBS, high cholesterol, hemorrhoids",
+      "zh": "便秘，肠易激综合征，高胆固醇，痔疮"
+    },
+    "precautions": {
+      "en": "Must take with plenty water; may block esophagus if insufficient",
+      "zh": "必须大量饮水，否则可能堵塞食道"
+    },
+    "modern_research": "FDA approved health claim for heart disease risk reduction",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/CADAL06211067_%E5%8D%81%E5%AD%90%E5%85%A8%E6%9B%B8%EF%BC%9A%E8%8D%80%E5%AD%90.djvu/page1-500px-CADAL06211067_%E5%8D%81%E5%AD%90%E5%85%A8%E6%9B%B8%EF%BC%9A%E8%8D%80%E5%AD%90.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Ben Cao Gang Mu"
+  },
+  {
+    "id": "chicken-gizzard",
+    "names": {
+      "en": "Chicken Gizzard Lining",
+      "zh": "鸡内金",
+      "zh_pinyin": "Jī Nèi Jīn",
+      "ja": "鶏内金",
+      "fr": "Gésier de Poulet"
+    },
+    "scientific_name": "Gallus gallus domesticus",
+    "family": "Phasianidae",
+    "origin": [
+      "Global"
+    ],
+    "parts_used": [
+      "Gizzard lining membrane"
+    ],
+    "nature": "Neutral",
+    "flavor": "Sweet",
+    "meridians": [
+      "Spleen",
+      "Stomach",
+      "Small Intestine",
+      "Bladder"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "benefits": {
+      "en": "Strengthens stomach, aids digestion, dissolves stones",
+      "zh": "健胃消食，化结石"
+    },
+    "uses": {
+      "en": "Indigestion, food stagnation, bedwetting, gallstones/kidney stones",
+      "zh": "消化不良，食积，遗尿，胆结石/肾结石"
+    },
+    "precautions": {
+      "en": "Generally safe for all ages",
+      "zh": "一般安全"
+    },
+    "modern_research": "Contains digestive enzymes and antimicrobial peptides",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CADAL06211660_%E5%A2%A8%E6%B5%B7%E9%87%91%E5%A3%BA%EF%BC%9A%E6%BA%96%E9%BD%8B%E9%9B%9C%E8%AA%AA%E5%A2%A8%E6%B5%B7%E9%87%91%E5%A3%BA%EF%BC%9A%E5%85%A7%E8%A8%93.djvu/page1-500px-CADAL06211660_%E5%A2%A8%E6%B5%B7%E9%87%91%E5%A3%BA%EF%BC%9A%E6%BA%96%E9%BD%8B%E9%9B%9C%E8%AA%AA%E5%A2%A8%E6%B5%B7%E9%87%91%E5%A3%BA%EF%BC%9A%E5%85%A7%E8%A8%93.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Shen Nong Ben Cao Jing"
+  },
+  {
+    "id": "silkworm-feces",
+    "names": {
+      "en": "Silkworm Feces",
+      "zh": "蚕砂",
+      "zh_pinyin": "Cán Shā",
+      "ja": "蚕砂",
+      "fr": "Fèves de Ver à Soie"
+    },
+    "scientific_name": "Bombyx mori",
+    "family": "Bombycidae",
+    "origin": [
+      "China",
+      "Japan",
+      "India"
+    ],
+    "parts_used": [
+      "Dried feces"
+    ],
+    "nature": "Warm",
+    "flavor": "Sweet, Xin",
+    "meridians": [
+      "Liver",
+      "Spleen",
+      "Stomach"
+    ],
+    "categories": [
+      "animal"
+    ],
+    "benefits": {
+      "en": "Dispels wind-damp, harmonizes stomach, brightens eyes",
+      "zh": "祛风除湿，和胃，明目"
+    },
+    "uses": {
+      "en": "Arthritis, cramps, eye redness, skin rashes",
+      "zh": "关节疼痛，抽筋，目赤，皮疹"
+    },
+    "precautions": {
+      "en": "Generally safe",
+      "zh": "一般安全"
+    },
+    "modern_research": "Contains flavonoids and chlorophyll derivatives",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/CADAL11100309_%E7%A0%82%E4%B8%81.djvu/page1-500px-CADAL11100309_%E7%A0%82%E4%B8%81.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ben_cao_ref": "Ben Cao Gang Mu"
   }
 ]
