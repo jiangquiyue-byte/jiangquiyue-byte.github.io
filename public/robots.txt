@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jiangquiyue-byte.github.io/sitemap.xml
