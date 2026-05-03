@@ -15,34 +15,43 @@
     <!-- Navigation -->
     <nav class="nav">
         <div class="nav-inner">
-            <a href="/" class="nav-logo">
+            <a href="#" class="nav-logo" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">
                 <span class="logo-icon">🌿</span>
                 <span class="logo-text">Herbal Atlas</span>
             </a>
             <div class="nav-links">
-                <a href="#herbs">Herbs</a>
-                <a href="#acupressure">Acupressure</a>
-                <a href="#teas">Tea Recipes</a>
-                <a href="#basics">TCM Basics</a>
+                <a href="#herbs" data-i18n="nav.herbs">Herbs</a>
+                <a href="#acupressure" data-i18n="nav.acupressure">Acupressure</a>
+                <a href="#teas" data-i18n="nav.teas">Tea Recipes</a>
+                <a href="#basics" data-i18n="nav.basics">TCM Basics</a>
             </div>
-            <button class="nav-toggle" aria-label="Toggle menu">
-                <span></span><span></span><span></span>
-            </button>
+            <div class="nav-right">
+                <!-- Language Switcher -->
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="zh">中文</button>
+                    <button class="lang-btn" data-lang="ja">日本語</button>
+                    <button class="lang-btn" data-lang="fr">FR</button>
+                </div>
+                <button class="nav-toggle" aria-label="Toggle menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <header class="hero">
         <div class="container">
-            <p class="hero-label">Traditional Chinese Medicine</p>
-            <h1 class="hero-title">The ancient art of<br>healing, modernized.</h1>
-            <p class="hero-subtitle">
+            <p class="hero-label" data-i18n="hero.label">Traditional Chinese Medicine</p>
+            <h1 class="hero-title" data-i18n="hero.title">The ancient art of<br>healing, modernized.</h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">
                 Evidence-based guide to Chinese herbal medicine and acupressure.
                 Rooted in the <em>Ben Cao Gang Mu</em> (本草纲目), validated by modern science.
             </p>
             <div class="hero-actions">
-                <a href="#herbs" class="btn btn-primary">Explore Herbs</a>
-                <a href="#acupressure" class="btn btn-secondary">Learn Acupressure</a>
+                <a href="#herbs" class="btn btn-primary" data-i18n="hero.explore">Explore Herbs</a>
+                <a href="#acupressure" class="btn btn-secondary" data-i18n="hero.learn">Learn Acupressure</a>
             </div>
         </div>
     </header>
@@ -53,19 +62,19 @@
             <div class="stats-grid">
                 <div class="stat">
                     <span class="stat-number">1,892</span>
-                    <span class="stat-label">Herbs Documented</span>
+                    <span class="stat-label" data-i18n="stats.herbs">Herbs Documented</span>
                 </div>
                 <div class="stat">
                     <span class="stat-number">365</span>
-                    <span class="stat-label">Acupressure Points</span>
+                    <span class="stat-label" data-i18n="stats.points">Acupressure Points</span>
                 </div>
                 <div class="stat">
                     <span class="stat-number">5,000+</span>
-                    <span class="stat-label">Years of History</span>
+                    <span class="stat-label" data-i18n="stats.history">Years of History</span>
                 </div>
                 <div class="stat">
                     <span class="stat-number">12</span>
-                    <span class="stat-label">Meridian Lines</span>
+                    <span class="stat-label" data-i18n="stats.meridians">Meridian Lines</span>
                 </div>
             </div>
         </div>
@@ -75,9 +84,9 @@
     <section id="herbs" class="section">
         <div class="container">
             <div class="section-header">
-                <p class="section-label">Herbal Encyclopedia</p>
-                <h2 class="section-title">Powerful herbs from the <em>Ben Cao Gang Mu</em></h2>
-                <p class="section-desc">
+                <p class="section-label" data-i18n="herbs.label">Herbal Encyclopedia</p>
+                <h2 class="section-title" data-i18n="herbs.title">Powerful herbs from the <em>Ben Cao Gang Mu</em></h2>
+                <p class="section-desc" data-i18n="herbs.desc">
                     Each herb is documented with its traditional use, modern scientific research,
                     and practical applications for everyday wellness.
                 </p>
@@ -85,21 +94,17 @@
 
             <!-- Herb Filter -->
             <div class="filter-bar">
-                <button class="filter-btn active" data-filter="all">All</button>
-                <button class="filter-btn" data-filter="immunity">Immunity</button>
-                <button class="filter-btn" data-filter="energy">Energy</button>
-                <button class="filter-btn" data-filter="sleep">Sleep</button>
-                <button class="filter-btn" data-filter="digestion">Digestion</button>
-                <button class="filter-btn" data-filter="stress">Stress Relief</button>
+                <button class="filter-btn active" data-filter="all" data-i18n="filter.all">All</button>
+                <button class="filter-btn" data-filter="immunity" data-i18n="filter.immunity">Immunity</button>
+                <button class="filter-btn" data-filter="energy" data-i18n="filter.energy">Energy</button>
+                <button class="filter-btn" data-filter="sleep" data-i18n="filter.sleep">Sleep</button>
+                <button class="filter-btn" data-filter="digestion" data-i18n="filter.digestion">Digestion</button>
+                <button class="filter-btn" data-filter="stress" data-i18n="filter.stress">Stress Relief</button>
             </div>
 
             <!-- Herbs Grid -->
             <div class="herbs-grid" id="herbs-grid">
                 <!-- Herbs will be loaded dynamically -->
-            </div>
-
-            <div class="section-footer">
-                <a href="#" class="btn btn-outline">View All Herbs →</a>
             </div>
         </div>
     </section>
@@ -108,9 +113,9 @@
     <section id="acupressure" class="section section-alt">
         <div class="container">
             <div class="section-header">
-                <p class="section-label">Acupressure Guide</p>
-                <h2 class="section-title">Healing points, mapped precisely.</h2>
-                <p class="section-desc">
+                <p class="section-label" data-i18n="acu.label">Acupressure Guide</p>
+                <h2 class="section-title" data-i18n="acu.title">Healing points, mapped precisely.</h2>
+                <p class="section-desc" data-i18n="acu.desc">
                     Interactive guide to the body's pressure points. Learn how to find and stimulate
                     key points for common ailments — no needles required.
                 </p>
@@ -120,25 +125,23 @@
             <div class="body-map-container">
                 <div class="body-map">
                     <svg viewBox="0 0 400 700" class="body-svg">
-                        <!-- Human body outline -->
                         <path class="body-outline" d="M200,50 C220,50 235,65 235,85 C235,105 220,120 200,120 C180,120 165,105 165,85 C165,65 180,50 200,50 Z M200,125 L200,130 M160,140 C140,160 120,200 110,250 L100,350 M240,140 C260,160 280,200 290,250 L300,350 M200,130 L200,350 M200,350 L170,500 M200,350 L230,500 M170,500 L165,600 M230,500 L235,600" fill="none" stroke="currentColor" stroke-width="2"/>
-                        <!-- Acupressure points -->
-                        <circle class="point" cx="200" cy="85" r="6" data-point="yintang" data-name="Yintang (印堂)" data-benefit="Calm mind, relieve headache"/>
-                        <circle class="point" cx="165" cy="85" r="5" data-point="taiyang" data-name="Taiyang (太阳)" data-benefit="Relieve headache, eye strain"/>
-                        <circle class="point" cx="175" cy="180" r="5" data-point="lung1" data-name="Zhongfu (中府)" data-benefit="Improve breathing, boost immunity"/>
-                        <circle class="point" cx="155" cy="220" r="5" data-point="pc6" data-name="Neiguan (内关)" data-benefit="Relieve nausea, calm anxiety"/>
-                        <circle class="point" cx="145" cy="240" r="5" data-point="li4" data-name="Hegu (合谷)" data-benefit="Relieve headache, pain relief"/>
-                        <circle class="point" cx="200" cy="250" r="5" data-point="ren17" data-name="Shanzhong (膻中)" data-benefit="Improve breathing, emotional balance"/>
-                        <circle class="point" cx="200" cy="300" r="5" data-point="ren6" data-name="Qihai (气海)" data-benefit="Boost energy, strengthen core"/>
-                        <circle class="point" cx="190" cy="330" r="5" data-point="st36" data-name="Zusanli (足三里)" data-benefit="Digestive health, energy boost"/>
-                        <circle class="point" cx="180" cy="550" r="5" data-point="kd1" data-name="Yongquan (涌泉)" data-benefit="Better sleep, relieve fatigue"/>
-                        <circle class="point" cx="210" cy="440" r="5" data-point="sp6" data-name="Sanyinjiao (三阴交)" data-benefit="Women's health, sleep aid"/>
+                        <circle class="point" cx="200" cy="85" r="6" data-point="yintang"/>
+                        <circle class="point" cx="165" cy="85" r="5" data-point="taiyang"/>
+                        <circle class="point" cx="175" cy="180" r="5" data-point="lung1"/>
+                        <circle class="point" cx="155" cy="220" r="5" data-point="pc6"/>
+                        <circle class="point" cx="145" cy="240" r="5" data-point="li4"/>
+                        <circle class="point" cx="200" cy="250" r="5" data-point="ren17"/>
+                        <circle class="point" cx="200" cy="300" r="5" data-point="ren6"/>
+                        <circle class="point" cx="190" cy="330" r="5" data-point="st36"/>
+                        <circle class="point" cx="180" cy="550" r="5" data-point="kd1"/>
+                        <circle class="point" cx="210" cy="440" r="5" data-point="sp6"/>
                     </svg>
                 </div>
                 <div class="point-info" id="point-info">
                     <div class="point-info-default">
-                        <h3>Explore Acupressure Points</h3>
-                        <p>Click on any point on the body map to learn about its benefits and how to stimulate it.</p>
+                        <h3 data-i18n="acu.explore">Explore Acupressure Points</h3>
+                        <p data-i18n="acu.click">Click on any point on the body map to learn about its benefits and how to stimulate it.</p>
                     </div>
                     <div class="point-info-detail" style="display:none;">
                         <h3 id="point-name"></h3>
@@ -152,25 +155,25 @@
             <div class="points-grid">
                 <div class="point-card" data-point="li4">
                     <div class="point-card-icon">🤕</div>
-                    <h4>Headache Relief</h4>
+                    <h4 data-i18n="acu.headache">Headache Relief</h4>
                     <p>Hegu (LI4) — The master point for headache and pain relief</p>
                     <span class="point-card-tag">Most Popular</span>
                 </div>
                 <div class="point-card" data-point="pc6">
                     <div class="point-card-icon">😰</div>
-                    <h4>Anxiety & Nausea</h4>
+                    <h4 data-i18n="acu.anxiety">Anxiety & Nausea</h4>
                     <p>Neiguan (PC6) — Calm your mind and settle your stomach</p>
                     <span class="point-card-tag">Travel Essential</span>
                 </div>
                 <div class="point-card" data-point="kd1">
                     <div class="point-card-icon">😴</div>
-                    <h4>Better Sleep</h4>
+                    <h4 data-i18n="acu.sleep">Better Sleep</h4>
                     <p>Yongquan (KD1) — The bubbling spring for deep rest</p>
                     <span class="point-card-tag">Nightly Ritual</span>
                 </div>
                 <div class="point-card" data-point="st36">
                     <div class="point-card-icon">💪</div>
-                    <h4>Digestive Health</h4>
+                    <h4 data-i18n="acu.digestion">Digestive Health</h4>
                     <p>Zusanli (ST36) — Boost digestion and overall vitality</p>
                     <span class="point-card-tag">Essential Point</span>
                 </div>
@@ -182,9 +185,9 @@
     <section id="teas" class="section">
         <div class="container">
             <div class="section-header">
-                <p class="section-label">Herbal Tea Recipes</p>
-                <h2 class="section-title">Simple remedies, brewed at home.</h2>
-                <p class="section-desc">
+                <p class="section-label" data-i18n="teas.label">Herbal Tea Recipes</p>
+                <h2 class="section-title" data-i18n="teas.title">Simple remedies, brewed at home.</h2>
+                <p class="section-desc" data-i18n="teas.desc">
                     Traditional herbal tea recipes you can make with readily available ingredients.
                     Each recipe includes benefits, ingredients, and step-by-step instructions.
                 </p>
@@ -205,7 +208,6 @@
                         </div>
                     </div>
                 </article>
-
                 <article class="tea-card">
                     <div class="tea-card-img" style="background: linear-gradient(135deg, #fff3e0, #ffe0b2);">
                         <span class="tea-emoji">🌙</span>
@@ -220,7 +222,6 @@
                         </div>
                     </div>
                 </article>
-
                 <article class="tea-card">
                     <div class="tea-card-img" style="background: linear-gradient(135deg, #fce4ec, #f8bbd0);">
                         <span class="tea-emoji">❤️</span>
@@ -243,53 +244,34 @@
     <section id="basics" class="section section-alt">
         <div class="container">
             <div class="section-header">
-                <p class="section-label">TCM Fundamentals</p>
-                <h2 class="section-title">Understanding the foundations.</h2>
-                <p class="section-desc">
+                <p class="section-label" data-i18n="basics.label">TCM Fundamentals</p>
+                <h2 class="section-title" data-i18n="basics.title">Understanding the foundations.</h2>
+                <p class="section-desc" data-i18n="basics.desc">
                     Traditional Chinese Medicine is built on centuries of observation and practice.
                     Learn the core concepts that guide herbal prescriptions and acupressure treatments.
                 </p>
             </div>
-
             <div class="basics-grid">
                 <div class="basic-card">
                     <div class="basic-icon">☯️</div>
                     <h4>Yin & Yang</h4>
                     <p>The fundamental duality of the universe. Health is maintained when yin and yang are in balance within the body.</p>
-                    <a href="#" class="basic-link">Learn more →</a>
                 </div>
                 <div class="basic-card">
                     <div class="basic-icon">🌀</div>
                     <h4>Qi (Vital Energy)</h4>
                     <p>The life force that flows through all living things. When Qi flows freely, the body is healthy. When blocked, illness occurs.</p>
-                    <a href="#" class="basic-link">Learn more →</a>
                 </div>
                 <div class="basic-card">
                     <div class="basic-icon">🔥</div>
                     <h4>Five Elements</h4>
                     <p>Wood, Fire, Earth, Metal, Water — each element corresponds to organs, emotions, and seasons in the body.</p>
-                    <a href="#" class="basic-link">Learn more →</a>
                 </div>
                 <div class="basic-card">
                     <div class="basic-icon">🫀</div>
                     <h4>Meridian System</h4>
                     <p>The network of energy pathways connecting the body. Acupressure points lie along these meridians.</p>
-                    <a href="#" class="basic-link">Learn more →</a>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Newsletter Section -->
-    <section class="newsletter-section">
-        <div class="container">
-            <div class="newsletter-content">
-                <h2>Stay updated with new herbs and remedies</h2>
-                <p>Get weekly insights into traditional Chinese medicine, new herb profiles, and acupressure tips.</p>
-                <form class="newsletter-form">
-                    <input type="email" placeholder="Enter your email" required>
-                    <button type="submit" class="btn btn-primary">Subscribe</button>
-                </form>
             </div>
         </div>
     </section>
@@ -310,26 +292,22 @@
                     <a href="#teas">Tea Recipes</a>
                     <a href="#basics">TCM Basics</a>
                 </div>
-                <div class="footer-links">
-                    <h5>Resources</h5>
-                    <a href="#">Research Papers</a>
-                    <a href="#">Ben Cao Gang Mu</a>
-                    <a href="#">Find a Practitioner</a>
-                    <a href="#">FAQ</a>
-                </div>
-                <div class="footer-links">
-                    <h5>About</h5>
-                    <a href="#">Our Mission</a>
-                    <a href="#">Contact</a>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms</a>
-                </div>
             </div>
             <div class="footer-bottom">
                 <p>© 2026 Herbal Atlas. For educational purposes only. Not medical advice.</p>
             </div>
         </div>
     </footer>
+
+    <!-- Herb Detail Modal -->
+    <div class="modal-overlay" id="herb-modal">
+        <div class="modal">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <div class="modal-body" id="modal-body">
+                <!-- Dynamic content -->
+            </div>
+        </div>
+    </div>
 
     <script src="src/js/main.js"></script>
 </body>
