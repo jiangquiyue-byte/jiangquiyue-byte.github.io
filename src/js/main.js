@@ -461,6 +461,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initFilters();
     initBodyMap();
     initPointCards();
+    initTeaCards();
     initModal();
     initTeaCards();
     initBasicCards();
@@ -605,27 +606,178 @@ function initBodyMap() {
             // Highlight selected point
             points.forEach(p => p.style.opacity = '0.5');
             point.style.opacity = '1';
+
+            // Also open modal for full details
+            openPointModal(pointId);
         });
     });
 }
 
 // ============================================
-// Point Cards
+// Point Cards — open detail modal
 // ============================================
 function initPointCards() {
     const cards = document.querySelectorAll('.point-card');
-    
+
     cards.forEach(card => {
         card.addEventListener('click', () => {
             const pointId = card.dataset.point;
-            const pointEl = document.querySelector(`.point[data-point="${pointId}"]`);
-            if (pointEl) {
-                pointEl.click();
-                // Scroll to body map
-                document.getElementById('acupressure')?.scrollIntoView({ behavior: 'smooth' });
-            }
+            openPointModal(pointId);
         });
     });
+}
+
+// ============================================
+// Acupressure Point Modal
+// ============================================
+function openPointModal(pointId) {
+    const data = pointsData[pointId];
+    if (!data) return;
+
+    const modal = document.getElementById('herb-modal');
+    const modalBody = document.getElementById('modal-body');
+    if (!modal || !modalBody) return;
+
+    modalBody.innerHTML = `
+        <div class="modal-hero" style="background: linear-gradient(135deg, #e8eaf6, #c5cae9); display: flex; align-items: center; justify-content: center; height: 200px;">
+            <span style="font-size: 80px;">📍</span>
+        </div>
+        <div class="modal-content">
+            <h2 class="modal-title">${data.name}</h2>
+            <p class="modal-subtitle">${data.english}</p>
+            
+            <div class="modal-section">
+                <h4>📍 Location</h4>
+                <p>${data.location}</p>
+            </div>
+            
+            <div class="modal-section">
+                <h4>✅ Benefits</h4>
+                <p>${data.benefits}</p>
+            </div>
+            
+            <div class="modal-section">
+                <h4>💆 How to Stimulate</h4>
+                <p>${data.instructions}</p>
+            </div>
+        </div>
+    `;
+
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+// ============================================
+// Tea Recipe Data
+// ============================================
+const teaData = {
+    "astragalus": {
+        name: "Astragalus Immunity Tea",
+        chinese: "黄芪养生茶",
+        tag: "Immunity",
+        time: "15 min",
+        servings: "2 cups",
+        ingredients: [
+            "10g sliced Astragalus root (黄芪)",
+            "5g Goji berries (枸杞)",
+            "3 red dates (红枣), pitted",
+            "500ml water",
+            "Honey to taste (optional)"
+        ],
+        instructions: "Rinse all herbs briefly with hot water. Add astragalus and red dates to a pot with 500ml cold water. Bring to a boil, then simmer on low heat for 15 minutes. Add goji berries in the last 5 minutes. Strain and serve warm. Add honey if desired.",
+        benefits: "Strengthens Qi and boosts immune function. Excellent for preventing colds during seasonal changes. The combination of astragalus with goji and red dates creates a balanced tonic that supports energy without overstimulation.",
+        caution: "Avoid during active infections or fever. Not recommended for pregnant women without medical advice."
+    },
+    "goji-sleep": {
+        name: "Goji Berry Sleep Tea",
+        chinese: "枸杞安神茶",
+        tag: "Sleep",
+        time: "10 min",
+        servings: "1 cup",
+        ingredients: [
+            "15g Goji berries (枸杞)",
+            "5g dried Chrysanthemum flowers (菊花)",
+            "5g Longan fruit (龙眼肉)",
+            "300ml water",
+            "Rock sugar to taste (optional)"
+        ],
+        instructions: "Bring water to 80°C (not boiling — boiling damages goji antioxidants). Add all ingredients and steep for 8-10 minutes. Strain and serve. Best consumed 30 minutes before bedtime for optimal sleep benefits.",
+        benefits: "Calms the mind and promotes restful sleep. Goji berries nourish liver and kidney yin, chrysanthemum clears heat and calms the spirit, while longan nourishes blood and calms anxiety. A gentle, natural sleep aid.",
+        caution: "Avoid if you have diarrhea or cold/flu symptoms."
+    },
+    "ginseng-energy": {
+        name: "Ginseng Energy Tea",
+        chinese: "人参提神茶",
+        tag: "Energy",
+        time: "20 min",
+        servings: "2 cups",
+        ingredients: [
+            "5g sliced Ginseng root (人参) or American Ginseng (西洋参)",
+            "5g Astragalus root (黄芪)",
+            "3 red dates (红枣)",
+            "2 slices of ginger (生姜)",
+            "500ml water"
+        ],
+        instructions: "Add ginseng, astragalus, red dates, and ginger to cold water. Bring to a boil, then reduce heat and simmer for 20 minutes. Strain and serve warm. Best consumed in the morning or early afternoon — avoid evening use as it may interfere with sleep.",
+        benefits: "Boosts energy, enhances mental clarity, and strengthens the immune system. Ginseng provides adaptogenic support while astragalus strengthens Qi. Ginger aids digestion and warming. Ideal for combating fatigue and seasonal tiredness.",
+        caution: "Not recommended for those with high blood pressure, insomnia, or during acute illness. Avoid with caffeine."
+    }
+};
+
+// ============================================
+// Tea Card Click Handlers
+// ============================================
+function initTeaCards() {
+    const cards = document.querySelectorAll('.tea-card');
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            const teaId = card.dataset.tea;
+            openTeaModal(teaId);
+        });
+    });
+}
+
+function openTeaModal(teaId) {
+    const data = teaData[teaId];
+    if (!data) return;
+
+    const modal = document.getElementById('herb-modal');
+    const modalBody = document.getElementById('modal-body');
+    if (!modal || !modalBody) return;
+
+    modalBody.innerHTML = `
+        <div class="modal-hero" style="background: linear-gradient(135deg, #f0f7ec, #dcedc8); display: flex; align-items: center; justify-content: center; height: 200px;">
+            <span style="font-size: 80px;">🍵</span>
+        </div>
+        <div class="modal-content">
+            <h2 class="modal-title">${data.name}</h2>
+            <p class="modal-subtitle">${data.chinese}</p>
+            <p style="color: var(--color-text-secondary); margin-bottom: 16px;">⏱ ${data.time} · 🍽 ${data.servings}</p>
+            
+            <div class="modal-section">
+                <h4>📋 Ingredients</h4>
+                <ul>${data.ingredients.map(i => `<li>${i}</li>`).join('')}</ul>
+            </div>
+            
+            <div class="modal-section">
+                <h4>👨‍🍳 Instructions</h4>
+                <p>${data.instructions}</p>
+            </div>
+            
+            <div class="modal-section">
+                <h4>✅ Health Benefits</h4>
+                <p>${data.benefits}</p>
+            </div>
+            
+            <div class="modal-section">
+                <h4>⚠️ Caution</h4>
+                <p>${data.caution}</p>
+            </div>
+        </div>
+    `;
+
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
 }
 
 // ============================================
