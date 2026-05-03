@@ -246,6 +246,118 @@ const pointsData = {
     }
 };
 
+// Wikimedia Commons photos for herbs (CC BY-SA / Public Domain)
+const herbPhotos = {
+    ginseng: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Panax_ginseng_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-025.jpg/400px-Panax_ginseng_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-025.jpg",
+    astragalus: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Astragalus_membranaceus_Fisch._ex_Bunge_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-073.jpg/400px-Astragalus_membranaceus_Fisch._ex_Bunge_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-073.jpg",
+    goji: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Goji_berries_drying.jpg/400px-Goji_berries_drying.jpg",
+    reishi: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Ganoderma_lucidum_01.jpg/400px-Ganoderma_lucidum_01.jpg",
+    turmeric: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Turmericroot.jpg/400px-Turmericroot.jpg",
+    chamomile: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Matricaria_chamomilla_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-036.jpg/400px-Matricaria_chamomilla_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-036.jpg",
+    elderberry: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Sambucus_nigra_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-020.jpg/400px-Sambucus_nigra_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-020.jpg",
+    echinacea: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Head_of_Echinacea_purpea.jpg/400px-Head_of_Echinacea_purpea.jpg",
+    valerian: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Valeriana_officinalis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-053.jpg/400px-Valeriana_officinalis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-053.jpg",
+    peppermint: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Mentha_%C3%97_piperita_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-041.jpg/400px-Mentha_%C3%97_piperita_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-041.jpg",
+    ashwagandha: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Withania_somnifera_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-153.jpg/400px-Withania_somnifera_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-153.jpg",
+    lavender: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Lavandula_angustifolia_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-058.jpg/400px-Lavandula_angustifolia_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-058.jpg"
+};
+
+// Growing habitat info for each herb
+const herbHabitat = {
+    ginseng: "Grows in cool, temperate forests with well-drained, humus-rich soil. Found in mountainous regions of Northeast China (Changbai Mountains), Korea, and Russian Far East. Prefers shaded areas at 200-900m elevation. Requires 4-6 years to mature.",
+    astragalus: "Thrives in dry, sandy grasslands and open mountain slopes. Native to northern China (Inner Mongolia, Hebei, Shanxi) and Mongolia. Drought-tolerant, prefers full sun and alkaline soil (pH 7-8). Root harvested after 4-5 years.",
+    goji: "Grows in alkaline, saline soils along river valleys and plains. Native to Ningxia, China (Yellow River region). Extremely hardy — tolerates drought, frost, and poor soil. Also grows wild in Tibet, Inner Mongolia, and parts of Europe.",
+    reishi: "Found on decaying hardwood trees (oak, maple, plum) in humid forests. Native to East Asia (China, Japan, Korea). Grows in warm, humid climates at 300-1500m elevation. Now widely cultivated on sawdust substrates.",
+    turmeric: "Tropical plant requiring warm temperatures (20-30°C) and heavy rainfall. Native to Southeast Asia and southern India. Grows in rich, well-drained soil with partial shade. Requires 8-10 months of growing season.",
+    chamomile: "Thrives in temperate climates with moderate rainfall. Native to Europe and Western Asia, now naturalized worldwide. Grows in open fields, roadsides, and waste places. Prefers well-drained soil and full sun to partial shade.",
+    elderberry: "Grows in moist, fertile soils along streams, hedgerows, and woodland edges. Native to Europe, North Africa, and Western Asia. Naturalized in North America. Tolerates partial shade but fruits best in full sun.",
+    echinacea: "Native to eastern and central North America. Grows in prairies, open woodlands, and grasslands. Prefers well-drained soil and full sun. Very drought-tolerant once established. Roots harvested after 3-4 years.",
+    valerian: "Grows in damp meadows, riverbanks, and woodland clearings across Europe and Asia. Prefers rich, moist soil and full sun to partial shade. Naturalized in North America. Roots harvested in autumn after 2 years.",
+    peppermint: "Hybrid plant (M. aquatica × M. spicata) found in moist habitats. Native to Europe and Middle East, now cultivated worldwide. Grows best in cool, damp conditions with partial shade. Spreads aggressively via runners.",
+    ashwagandha: "Thrives in dry, arid regions with sandy, well-drained soil. Native to India, Middle East, and parts of Africa. Prefers temperatures 20-30°C and low rainfall (300-500mm/year). Drought-tolerant once established.",
+    lavender: "Grows in dry, rocky, calcareous soils in Mediterranean climate. Native to Mediterranean region (France, Spain, Italy). Requires full sun, excellent drainage, and low humidity. Tolerates poor soil and drought."
+};
+
+// Full herb descriptions (longer, for modal)
+const herbFullDesc = {
+    ginseng: "Known as the 'King of Herbs' in Chinese medicine, Ginseng (Panax ginseng) has been used for over 2,000 years. The word 'Panax' means 'all-healing' in Greek. Modern research confirms its adaptogenic properties — it helps the body resist stress and maintain homeostasis. Active compounds called ginsenosides have been shown to boost energy, enhance cognitive function, support immune health, and regulate blood sugar.",
+    astragalus: "A fundamental herb in Traditional Chinese Medicine, Astragalus (Huang Qi) has been used for over 2,000 years to strengthen Qi (vital energy). Modern studies show it contains polysaccharides and saponins that support immune function, protect the heart, and have anti-aging properties. It's commonly added to soups and teas in Chinese households for daily wellness.",
+    goji: "Goji berries (Gou Qi Zi) have been used in Chinese medicine for over 2,000 years. The 'Ben Cao Gang Mu' (本草纲目) describes them as beneficial for the eyes, liver, and kidneys. Rich in antioxidants (zeaxanthin, beta-carotene, vitamin C), modern research supports their role in eye health, immune function, and longevity. The best quality comes from Ningxia, China.",
+    reishi: "Known as 'Ling Zhi' (灵芝) or the 'Mushroom of Immortality,' Reishi has been revered in Chinese culture for over 2,000 years. It was once reserved for royalty. Modern research confirms its immunomodulatory, anti-inflammatory, and stress-reducing properties. It contains triterpenoids and polysaccharides that support immune function and may have anti-cancer potential.",
+    turmeric: "Used in both Chinese and Ayurvedic medicine for thousands of years, Turmeric (Jiang Huang) contains curcumin — one of the most studied natural anti-inflammatory compounds. Research shows curcumin matches the effectiveness of some anti-inflammatory drugs without side effects. It supports joint health, digestion, and may help prevent chronic diseases.",
+    chamomile: "Chamomile (Gan Ju) is one of the most widely used medicinal herbs globally. In Chinese medicine, it's used to clear heat and calm the spirit. Modern research confirms its anxiolytic and sleep-promoting effects, primarily due to the flavonoid apigenin. It's considered one of the safest herbs for daily use, including for children.",
+    elderberry: "Elderberry (Jie Gu Mu) has been used in European folk medicine for centuries. Modern clinical trials show that elderberry extract can significantly reduce the duration and severity of colds and flu. Rich in anthocyanins and vitamin C, it supports immune function and has antiviral properties. The berries must be cooked before consumption — raw berries are toxic.",
+    echinacea: "Echinacea (Zi Zhui Ju) is the most popular herbal remedy in North America for cold prevention. Native American tribes used it for various ailments long before European contact. Modern studies show it can reduce cold risk by 58% and shorten duration by 1-4 days. The purple coneflower's roots, leaves, and flowers all contain medicinal compounds.",
+    valerian: "Valerian (Xie Cao) has been used since ancient Greek and Roman times for insomnia and anxiety. In Chinese medicine, it calms the spirit and regulates Qi. Modern clinical trials support its use for improving sleep quality without the morning grogginess associated with prescription sleep aids. It works by increasing GABA levels in the brain.",
+    peppermint: "Peppermint (Bo He) is a hybrid plant with a long history in both Western and Chinese herbal medicine. Its active compound, menthol, relaxes smooth muscles in the digestive tract, making it effective for IBS, bloating, and nausea. In Chinese medicine, it's used to release wind-heat and clear the head and eyes. The essential oil is also widely used in aromatherapy.",
+    ashwagandha: "Ashwagandha (Nan Zui Qie) is one of the most important herbs in Ayurvedic medicine and increasingly recognized in TCM. As an adaptogen, it helps the body manage stress by regulating cortisol levels. Clinical trials show it can reduce anxiety by 44%, improve sleep quality, boost testosterone in men, and enhance physical performance.",
+    lavender: "Lavender (Xun Yi Cao) is the most widely used aromatic herb in the world. In Chinese medicine, it calms the spirit and harmonizes the middle burner. Modern research confirms its anxiolytic effects through inhalation and oral use. The essential oil contains linalool and linalyl acetate, which interact with GABA receptors to produce calming effects."
+};
+
+// ============================================
+// Modal Functions
+// ============================================
+function openHerbModal(herbId) {
+    const herb = herbsData.find(h => h.id === herbId);
+    if (!herb) return;
+
+    const modal = document.getElementById('herb-modal');
+    const modalBody = document.getElementById('modal-body');
+    if (!modal || !modalBody) return;
+
+    const photoUrl = herbPhotos[herbId] || '';
+    const habitat = herbHabitat[herbId] || '';
+    const fullDesc = herbFullDesc[herbId] || herb.description;
+
+    modalBody.innerHTML = `
+        <div class="modal-hero">
+            <img src="${photoUrl}" alt="${herb.name}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="modal-hero-fallback" style="display:none; font-size:80px; height:200px; align-items:center; justify-content:center; background:${herb.iconBg}">${herb.icon}</div>
+        </div>
+        <div class="modal-content">
+            <h2 class="modal-title">${herb.name}</h2>
+            <p class="modal-subtitle">${herb.chinese}</p>
+            <p style="color: var(--color-text-secondary); font-style: italic; margin-bottom: 16px;">${herb.scientificName}</p>
+            
+            <div class="modal-section">
+                <h4>📖 Overview</h4>
+                <p>${fullDesc}</p>
+            </div>
+            
+            <div class="modal-section">
+                <h4>🌱 Growing Habitat & Distribution</h4>
+                <p>${habitat}</p>
+            </div>
+            
+            <div class="modal-section">
+                <h4>✅ Key Benefits</h4>
+                <ul>${herb.benefits.map(b => `<li>${b}</li>`).join('')}</ul>
+            </div>
+            
+            <div class="modal-section">
+                <h4>📍 Origin</h4>
+                <p>${herb.origin}</p>
+            </div>
+            
+            <div class="modal-section">
+                <h4>🔗 Scientific Research</h4>
+                <p><a href="${herb.research}" target="_blank" rel="noopener" style="color: var(--color-primary);">View studies on PubMed →</a></p>
+            </div>
+        </div>
+    `;
+
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeHerbModal() {
+    const modal = document.getElementById('herb-modal');
+    if (modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+}
+
 // ============================================
 // DOM Ready
 // ============================================
@@ -255,7 +367,21 @@ document.addEventListener('DOMContentLoaded', () => {
     initFilters();
     initBodyMap();
     initPointCards();
+    initModal();
 });
+
+function initModal() {
+    // Close on X button
+    document.getElementById('modal-close')?.addEventListener('click', closeHerbModal);
+    // Close on overlay click
+    document.getElementById('herb-modal')?.addEventListener('click', (e) => {
+        if (e.target === e.currentTarget) closeHerbModal();
+    });
+    // Close on Escape
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeHerbModal();
+    });
+}
 
 // ============================================
 // Navigation
@@ -300,7 +426,7 @@ function renderHerbs(category = 'all') {
         : herbsData.filter(h => h.category === category);
 
     grid.innerHTML = filtered.map(herb => `
-        <div class="herb-card" data-category="${herb.category}">
+        <div class="herb-card" data-category="${herb.category}" data-herb-id="${herb.id}">
             <div class="herb-card-header">
                 <div class="herb-icon" style="background: ${herb.iconBg}">${herb.icon}</div>
                 <div>
@@ -315,11 +441,11 @@ function renderHerbs(category = 'all') {
         </div>
     `).join('');
 
-    // Add click handlers
+    // Add click handlers — open modal with real photos
     grid.querySelectorAll('.herb-card').forEach(card => {
         card.addEventListener('click', () => {
-            // Future: open detail modal
-            console.log('Herb clicked:', card.querySelector('h3').textContent);
+            const herbId = card.dataset.herbId;
+            if (herbId) openHerbModal(herbId);
         });
     });
 }
