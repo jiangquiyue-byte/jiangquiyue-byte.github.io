@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "li4",
+    "names": {
+      "en": "Hegu (LI4)",
+      "zh": "合谷",
+      "zh_pinyin": "Hé Gǔ",
+      "ja": "合谷",
+      "ja_reading": "ゴウコク",
+      "fr": "Hegu (IG4)"
+    },
+    "meridian": "Large Intestine",
+    "location": {
+      "en": "On the back of the hand, between the thumb and index finger",
+      "zh": "手背，第一、二掌骨之间",
+      "ja": "手の甲、親指と人差し指の間",
+      "fr": "Sur le dos de la main, entre le pouce et l'index"
+    },
+    "benefits": {
+      "en": [
+        "Headache relief",
+        "Toothache",
+        "Neck pain",
+        "General pain relief"
+      ],
+      "zh": [
+        "头痛",
+        "牙痛",
+        "颈痛",
+        "各种疼痛"
+      ],
+      "ja": [
+        "頭痛",
+        "歯痛",
+        "首の痛み",
+        "痛みの緩和"
+      ],
+      "fr": [
+        "Soulage les maux de tête",
+        "Mal de dents",
+        "Douleur du cou",
+        "Soulage la douleur"
+      ]
+    },
+    "instructions": {
+      "en": "Press firmly with opposite thumb for 2-3 minutes. Strong sensation expected.",
+      "zh": "用对侧拇指用力按压2-3分钟。应有较强酸胀感。",
+      "ja": "反対側の親指で強く2-3分押し続けます。",
+      "fr": "Appuyez fermément avec le pouce opposé pendant 2-3 minutes."
+    },
+    "precaution": "Avoid during pregnancy"
+  },
+  {
+    "id": "pc6",
+    "names": {
+      "en": "Neiguan (PC6)",
+      "zh": "内关",
+      "zh_pinyin": "Nèi Guān",
+      "ja": "内関",
+      "ja_reading": "ナイカン",
+      "fr": "Neiguan (MC6)"
+    },
+    "meridian": "Pericardium",
+    "location": {
+      "en": "Inner forearm, 3 finger-widths from wrist crease, between two tendons",
+      "zh": "前臂内侧，腕横纹上3寸，两筋之间",
+      "ja": "前腕内側、手首のシワから3指幅",
+      "fr": "Avant-bras intérieur, 3 largeurs de doigts du pli du poignet"
+    },
+    "benefits": {
+      "en": [
+        "Nausea relief",
+        "Motion sickness",
+        "Anxiety relief",
+        "Carpal tunnel"
+      ],
+      "zh": [
+        "止呕",
+        "晕车",
+        "焦虑",
+        "手腕综合症"
+      ],
+      "ja": [
+        "吐き気",
+        "乗り物酔い",
+        "不安",
+        "手根管症候群"
+      ],
+      "fr": [
+        "Soulage les nausées",
+        "Mal des transports",
+        "Anxiété",
+        "Syndrome du canal carpien"
+      ]
+    },
+    "instructions": {
+      "en": "Press firmly and massage in small circles for 2-3 minutes on each wrist.",
+      "zh": "用力按压并以小圆圈按摩2-3分钟，每侧手腕。",
+      "ja": "強く押しながら小円を描くように2-3分按摩します。",
+      "fr": "Appuyez fermément et massez en petits cercles pendant 2-3 minutes."
+    },
+    "precaution": "None significant"
+  },
+  {
+    "id": "st36",
+    "names": {
+      "en": "Zusanli (ST36)",
+      "zh": "足三里",
+      "zh_pinyin": "Zú Sān Lǐ",
+      "ja": "足三里",
+      "ja_reading": "ソクサンリ",
+      "fr": "Zusanli (E36)"
+    },
+    "meridian": "Stomach",
+    "location": {
+      "en": "Outer leg, 4 finger-widths below kneecap, one finger-width outward from shinbone",
+      "zh": "小腿外侧，犊鼻下3寸，胫骨前嵴外一横指",
+      "ja": "脛の外側、膝蓋骨から4指幅下",
+      "fr": "Jambe extérieure, 4 largeurs de doigts sous la rotule"
+    },
+    "benefits": {
+      "en": [
+        "Energy boost",
+        "Digestive health",
+        "Immune support",
+        "Longevity"
+      ],
+      "zh": [
+        "补中益气",
+        "健脾和胃",
+        "扶正培元",
+        "延年益寿"
+      ],
+      "ja": [
+        "活力増強",
+        "消化器健康",
+        "免疫サポート",
+        "長寿"
+      ],
+      "fr": [
+        "Énergie",
+        "Santé digestive",
+        "Immunité",
+        "Longévité"
+      ]
+    },
+    "instructions": {
+      "en": "Press firmly and massage for 2-3 minutes on each leg. Stimulate daily for vitality.",
+      "zh": "用力按压并按摩2-3分钟，每条腿。每日刺激可增强体质。",
+      "ja": "強く押し2-3分按摩します。毎日刺激すると活力が増します。",
+      "fr": "Appuyez fermément et massez pendant 2-3 minutes sur chaque jambe."
+    },
+    "precaution": "None significant"
+  },
+  {
+    "id": "kd1",
+    "names": {
+      "en": "Yongquan (KD1)",
+      "zh": "涌泉",
+      "zh_pinyin": "Yǒng Quán",
+      "ja": "湧泉",
+      "ja_reading": "ユウセン",
+      "fr": "Yongquan (R1)"
+    },
+    "meridian": "Kidney",
+    "location": {
+      "en": "Sole of foot, in depression when toes are curled, at 1/3 point from toes",
+      "zh": "足底，蜷足时足前部凹陷处",
+      "ja": "足の裏、つま先を曲げた時の凹み",
+      "fr": "Plante du pied, dans la dépression quand les orteils sont recroquevillis"
+    },
+    "benefits": {
+      "en": [
+        "Better sleep",
+        "Relieves fatigue",
+        "Calms anxiety",
+        "Grounds energy"
+      ],
+      "zh": [
+        "安神助眠",
+        "消除疲劳",
+        "缓解焦虑",
+        "引火归元"
+      ],
+      "ja": [
+        "安眠",
+        "疲労回復",
+        "不安軽減",
+        "気の安定"
+      ],
+      "fr": [
+        "Meilleur sommeil",
+        "Fatigue",
+        "Anxiété",
+        "Énergie stable"
+      ]
+    },
+    "instructions": {
+      "en": "Massage firmly with thumb for 3-5 minutes before bed. Walk barefoot on natural surfaces.",
+      "zh": "睡前用拇指用力按摩3-5分钟。赤脚走在自然地面上也可刺激。",
+      "ja": "寝る前に親指で強く3-5分按摩します。",
+      "fr": "Massez fermément avec le pouce pendant 3-5 minutes avant le coucher."
+    },
+    "precaution": "Avoid during pregnancy"
+  },
+  {
+    "id": "gv20",
+    "names": {
+      "en": "Baihui (GV20)",
+      "zh": "百会",
+      "zh_pinyin": "Bǎi Huì",
+      "ja": "百会",
+      "ja_reading": "ヒャクエ",
+      "fr": "Baihui (VG20)"
+    },
+    "meridian": "Governing Vessel",
+    "location": {
+      "en": "Top of the head, at the intersection of the midline and a line connecting the tops of the ears",
+      "zh": "头顶正中线与两耳尖连线的交点",
+      "ja": "頭頂部、正中線と両耳尖を結ぶ線の交点",
+      "fr": "Sommet de la tête, à l'intersection de la ligne médiane et d'une ligne reliant les sommets des oreilles"
+    },
+    "benefits": {
+      "en": [
+        "Relieves headaches",
+        "Calms the mind",
+        "Treats dizziness",
+        "Improves memory"
+      ],
+      "zh": [
+        "缓解头痛",
+        "安神",
+        "治疗眩晕",
+        "改善记忆"
+      ],
+      "ja": [
+        "頭痛緩和",
+        "精神安定",
+        "めまい治療",
+        "記憶力向上"
+      ],
+      "fr": [
+        "Soulage les maux de tête",
+        "Calme l'esprit",
+        "Traite les vertiges",
+        "Améliore la mémoire"
+      ]
+    },
+    "instructions": {
+      "en": "Press gently with fingertip for 1-2 minutes. Breathe deeply while pressing.",
+      "zh": "用指尖轻轻按压1-2分钟。按压时深呼吸。",
+      "ja": "指先で軽く1-2分押し続けます。押しながら深呼吸。",
+      "fr": "Appuyez doucement avec le bout du doigt pendant 1-2 minutes. Respirez profondément."
+    },
+    "precaution": "Use gentle pressure only"
+  },
+  {
+    "id": "ex_hn5",
+    "names": {
+      "en": "Taiyang (EX-HN5)",
+      "zh": "太阳",
+      "zh_pinyin": "Tài Yáng",
+      "ja": "太陽",
+      "ja_reading": "タイヨウ",
+      "fr": "Taiyang (Extra)"
+    },
+    "meridian": "Extra point",
+    "location": {
+      "en": "In the depression about one finger-width behind the midpoint between the outer edge of the eyebrow and the outer corner of the eye",
+      "zh": "眉梢与外眼角之间向后约一横指的凹陷处",
+      "ja": "眉の端と目の外角の中間から後ろ約一指幅の凹み",
+      "fr": "Dans la dépression à environ un doigt en arrière du point entre l'extrémité du sourcil et le coin externe de l'œil"
+    },
+    "benefits": {
+      "en": [
+        "Relieves headaches",
+        "Reduces eye strain",
+        "Treats migraines",
+        "Clears the mind"
+      ],
+      "zh": [
+        "缓解头痛",
+        "减轻眼疲劳",
+        "治疗偏头痛",
+        "清醒头脑"
+      ],
+      "ja": [
+        "頭痛緩和",
+        "眼精疲労軽減",
+        "偏頭痛治療",
+        "頭脳明晰"
+      ],
+      "fr": [
+        "Soulage les maux de tête",
+        "Réduit la fatigue oculaire",
+        "Traite les migraines",
+        "Clarifie l'esprit"
+      ]
+    },
+    "instructions": {
+      "en": "Press and massage in small circles for 1-2 minutes on each side.",
+      "zh": "按压并以小圆圈按摩1-2分钟，每侧。",
+      "ja": "小円を描くように1-2分按摩します。",
+      "fr": "Appuyez et massez en petits cercles pendant 1-2 minutes de chaque côté."
+    },
+    "precaution": "Use moderate pressure; avoid in cases of head injury"
+  },
+  {
+    "id": "gb20",
+    "names": {
+      "en": "Fengchi (GB20)",
+      "zh": "风池",
+      "zh_pinyin": "Fēng Chí",
+      "ja": "風池",
+      "ja_reading": "フウチ",
+      "fr": "Fengchi (VB20)"
+    },
+    "meridian": "Gallbladder",
+    "location": {
+      "en": "At the base of the skull, in the depression between the two large neck muscles",
+      "zh": "后颈部，枕骨下方，两条大肌肉之间的凹陷处",
+      "ja": "後頭部、頭蓋骨の底部、二つの大きな首の筋肉の間の凹み",
+      "fr": "À la base du crâne, dans la dépression entre les deux grands muscles du cou"
+    },
+    "benefits": {
+      "en": [
+        "Relieves headaches",
+        "Reduces neck stiffness",
+        "Clears nasal congestion",
+        "Treats colds"
+      ],
+      "zh": [
+        "缓解头痛",
+        "减轻颈部僵硬",
+        "疏通鼻塞",
+        "治疗感冒"
+      ],
+      "ja": [
+        "頭痛緩和",
+        "首のこり軽減",
+        "鼻づまり解消",
+        "風邪治療"
+      ],
+      "fr": [
+        "Soulage les maux de tête",
+        "Réduit la raideur du cou",
+        "Dégage le nez",
+        "Traite les rhumes"
+      ]
+    },
+    "instructions": {
+      "en": "Press upward toward the skull with both thumbs for 2-3 minutes.",
+      "zh": "用双侧拇指向上朝头骨方向按压2-3分钟。",
+      "ja": "両方の親指で頭蓋骨に向かって上に2-3分押し続けます。",
+      "fr": "Appuyez vers le haut avec les deux pouces pendant 2-3 minutes."
+    },
+    "precaution": "Avoid in cases of cervical spine injury"
+  },
+  {
+    "id": "li11",
+    "names": {
+      "en": "Quchi (LI11)",
+      "zh": "曲池",
+      "zh_pinyin": "Qū Chí",
+      "ja": "曲池",
+      "ja_reading": "キョクチ",
+      "fr": "Quchi (GI11)"
+    },
+    "meridian": "Large Intestine",
+    "arm": true,
+    "location": {
+      "en": "At the outer end of the elbow crease when the arm is bent",
+      "zh": "肘部弯曲时，肘横纹的外侧端",
+      "ja": "肘を曲げた時、肘のシワの外側端",
+      "fr": "À l'extrémité externe du pli du coude lorsque le bras est plié"
+    },
+    "benefits": {
+      "en": [
+        "Reduces fever",
+        "Relieves elbow pain",
+        "Treats skin conditions",
+        "Lowers blood pressure"
+      ],
+      "zh": [
+        "退热",
+        "缓解肘痛",
+        "治疗皮肤病",
+        "降血压"
+      ],
+      "ja": [
+        "解熱",
+        "肘の痛み緩和",
+        "皮膚疾患治療",
+        "血圧降下"
+      ],
+      "fr": [
+        "Réduit la fièvre",
+        "Soulage la douleur du coude",
+        "Traite les affections cutanées",
+        "Abaisse la tension"
+      ]
+    },
+    "instructions": {
+      "en": "Press firmly with opposite thumb for 2-3 minutes. Effective for fever reduction.",
+      "zh": "用对侧拇指用力按压2-3分钟。退热效果好。",
+      "ja": "反対側の親指で強く2-3分押し続けます。解熱に効果的。",
+      "fr": "Appuyez fermement avec le pouce opposé pendant 2-3 minutes."
+    },
+    "precaution": "None significant"
+  },
+  {
+    "id": "sp6",
+    "names": {
+      "en": "Sanyinjiao (SP6)",
+      "zh": "三阴交",
+      "zh_pinyin": "Sān Yīn Jiāo",
+      "ja": "三陰交",
+      "ja_reading": "サンインコウ",
+      "fr": "Sanyinjiao (Rate6)"
+    },
+    "meridian": "Spleen",
+    "location": {
+      "en": "Inner leg, 4 finger-widths above the inner ankle bone, behind the shinbone",
+      "zh": "小腿内侧，内踝尖上3寸，胫骨后缘",
+      "ja": "脚の内側、内くるぶしから4指幅上、脛骨の後ろ",
+      "fr": "Jambe intérieure, 4 largeurs de doigts au-dessus de la malléole interne"
+    },
+    "benefits": {
+      "en": [
+        "Regulates menstruation",
+        "Relieves menstrual cramps",
+        "Improves digestion",
+        "Promotes sleep"
+      ],
+      "zh": [
+        "调经",
+        "缓解痛经",
+        "改善消化",
+        "促进睡眠"
+      ],
+      "ja": [
+        "月経調整",
+        "生理痛緩和",
+        "消化改善",
+        "睡眠促進"
+      ],
+      "fr": [
+        "Règles le cycle menstruel",
+        "Soulage les crampes",
+        "Améliore la digestion",
+        "Favorise le sommeil"
+      ]
+    },
+    "instructions": {
+      "en": "Press firmly and massage for 2-3 minutes on each leg. Powerful point for women's health.",
+      "zh": "用力按压并按摩2-3分钟，每条腿。妇科要穴。",
+      "ja": "強く押し2-3分按摩します。婦人科の要穴。",
+      "fr": "Appuyez fermement et massez pendant 2-3 minutes sur chaque jambe."
+    },
+    "precaution": "AVOID DURING PREGNANCY - may induce contractions"
+  },
+  {
+    "id": "lv3",
+    "names": {
+      "en": "Taichong (LV3)",
+      "zh": "太冲",
+      "zh_pinyin": "Tài Chōng",
+      "ja": "太衝",
+      "ja_reading": "タイショウ",
+      "fr": "Taichong (F3)"
+    },
+    "meridian": "Liver",
+    "location": {
+      "en": "On the foot, in the depression between the big toe and second toe, about 2 finger-widths up",
+      "zh": "足背，大趾与第二趾之间向上约2横指的凹陷处",
+      "ja": "足の甲、親指と人差し指の間から約2指幅上の凹み",
+      "fr": "Sur le pied, dans la dépression entre le gros orteil et le deuxième orteil"
+    },
+    "benefits": {
+      "en": [
+        "Relieves stress and anger",
+        "Reduces headaches",
+        "Lowers blood pressure",
+        "Regulates menstruation"
+      ],
+      "zh": [
+        "疏肝理气",
+        "缓解头痛",
+        "降血压",
+        "调经"
+      ],
+      "ja": [
+        "ストレス解消",
+        "頭痛緩和",
+        "血圧降下",
+        "月経調整"
+      ],
+      "fr": [
+        "Soulage le stress",
+        "Réduit les maux de tête",
+        "Abaisse la tension",
+        "Règle les menstruations"
+      ]
+    },
+    "instructions": {
+      "en": "Press firmly between the tendons for 2-3 minutes on each foot.",
+      "zh": "在肌腱之间用力按压2-3分钟，每只脚。",
+      "ja": "腱の間を強く2-3分押し続けます。",
+      "fr": "Appuyez fermement entre les tendons pendant 2-3 minutes sur chaque pied."
+    },
+    "precaution": "None significant"
+  },
+  {
+    "id": "ht7",
+    "names": {
+      "en": "Shenmen (HT7)",
+      "zh": "神门",
+      "zh_pinyin": "Shén Mén",
+      "ja": "神門",
+      "ja_reading": "シンモン",
+      "fr": "Shenmen (C7)"
+    },
+    "meridian": "Heart",
+    "location": {
+      "en": "On the wrist crease, on the pinky side, in the depression next to the tendon",
+      "zh": "腕横纹上，小指侧，肌腱旁的凹陷处",
+      "ja": "手首のシワ、小指側、腱の横の凹み",
+      "fr": "Sur le pli du poignet, côté auriculaire, dans la dépression à côté du tendon"
+    },
+    "benefits": {
+      "en": [
+        "Calms anxiety",
+        "Improves sleep",
+        "Relieves palpitations",
+        "Treats insomnia"
+      ],
+      "zh": [
+        "安神",
+        "改善睡眠",
+        "缓解心悸",
+        "治疗失眠"
+      ],
+      "ja": [
+        "不安緩和",
+        "睡眠改善",
+        "動悸緩和",
+        "不眠治療"
+      ],
+      "fr": [
+        "Calme l'anxiété",
+        "Améliore le sommeil",
+        "Soulège les palpitations",
+        "Traite l'insomnie"
+      ]
+    },
+    "instructions": {
+      "en": "Press gently for 2-3 minutes on each wrist. Best done before bed.",
+      "zh": "轻轻按压2-3分钟，每侧手腕。睡前效果最佳。",
+      "ja": "軽く2-3分押し続けます。寝る前に最適。",
+      "fr": "Appuyez doucement pendant 2-3 minutes sur chaque poignet."
+    },
+    "precaution": "None significant"
+  },
+  {
+    "id": "cv12",
+    "names": {
+      "en": "Zhongwan (CV12)",
+      "zh": "中脘",
+      "zh_pinyin": "Zhōng Wǎn",
+      "ja": "中脘",
+      "ja_reading": "チュウカン",
+      "fr": "Zhongwan (VC12)"
+    },
+    "meridian": "Conception Vessel",
+    "location": {
+      "en": "On the upper abdomen, 4 finger-widths above the navel, on the midline",
+      "zh": "上腹部，肚脐上4寸，正中线上",
+      "ja": "上腹部、おへその上4指幅、正中線上",
+      "fr": "Sur l'abdomen supérieur, 4 largeurs de doigts au-dessus du nombril"
+    },
+    "benefits": {
+      "en": [
+        "Relieves stomach pain",
+        "Reduces bloating",
+        "Improves digestion",
+        "Treats acid reflux"
+      ],
+      "zh": [
+        "缓解胃痛",
+        "减少胀气",
+        "改善消化",
+        "治疗反酸"
+      ],
+      "ja": [
+        "胃痛緩和",
+        "腹部膨満感軽減",
+        "消化改善",
+        "逆流性食道炎治療"
+      ],
+      "fr": [
+        "Soulage les douleurs d'estomac",
+        "Réduit les ballonnements",
+        "Améliore la digestion",
+        "Traite le reflux acide"
+      ]
+    },
+    "instructions": {
+      "en": "Press gently in a clockwise circular motion for 3-5 minutes after meals.",
+      "zh": "饭后顺时针轻轻按揉3-5分钟。",
+      "ja": "食後に時計回りに軽く3-5分按摩します。",
+      "fr": "Appuyez doucement en mouvements circulaires horaires pendant 3-5 minutes après les repas."
+    },
+    "precaution": "Avoid during pregnancy"
+  },
+  {
+    "id": "cv6",
+    "names": {
+      "en": "Qihai (CV6)",
+      "zh": "气海",
+      "zh_pinyin": "Qì Hǎi",
+      "ja": "気海",
+      "ja_reading": "キカイ",
+      "fr": "Qihai (VC6)"
+    },
+    "meridian": "Conception Vessel",
+    "location": {
+      "en": "On the lower abdomen, 2 finger-widths below the navel, on the midline",
+      "zh": "下腹部，肚脐下1.5寸，正中线上",
+      "ja": "下腹部、おへその下2指幅、正中線上",
+      "fr": "Sur l'abdomen inférieur, 2 largeurs de doigts sous le nombril"
+    },
+    "benefits": {
+      "en": [
+        "Boosts energy",
+        "Strengthens immunity",
+        "Relieves menstrual pain",
+        "Improves vitality"
+      ],
+      "zh": [
+        "补气",
+        "增强免疫",
+        "缓解痛经",
+        "改善体质"
+      ],
+      "ja": [
+        "活力増強",
+        "免疫強化",
+        "生理痛緩和",
+        "体力向上"
+      ],
+      "fr": [
+        "Booste l'énergie",
+        "Renforce l'immunité",
+        "Soulage les douleurs menstruelles",
+        "Améliore la vitalité"
+      ]
+    },
+    "instructions": {
+      "en": "Press and hold for 3-5 minutes. Warm the area with your palm first.",
+      "zh": "按压并保持3-5分钟。先用手掌温暖该区域。",
+      "ja": "3-5分押し続けます。まず手のひらで温めてから。",
+      "fr": "Appuyez et maintenez pendant 3-5 minutes. Réchauffez d'abord la zone avec votre paume."
+    },
+    "precaution": "Avoid during pregnancy"
+  },
+  {
+    "id": "cv4",
+    "names": {
+      "en": "Guanyuan (CV4)",
+      "zh": "关元",
+      "zh_pinyin": "Guān Yuán",
+      "ja": "関元",
+      "ja_reading": "カンゲン",
+      "fr": "Guanyuan (VC4)"
+    },
+    "meridian": "Conception Vessel",
+    "location": {
+      "en": "On the lower abdomen, 4 finger-widths below the navel, on the midline",
+      "zh": "下腹部，肚脐下3寸，正中线上",
+      "ja": "下腹部、おへその下4指幅、正中線上",
+      "fr": "Sur l'abdomen inférieur, 4 largeurs de doigts sous le nombril"
+    },
+    "benefits": {
+      "en": [
+        "Strengthens kidney function",
+        "Boosts reproductive health",
+        "Improves energy",
+        "Treats urinary issues"
+      ],
+      "zh": [
+        "补肾固本",
+        "增强生殖健康",
+        "改善精力",
+        "治疗泌尿问题"
+      ],
+      "ja": [
+        "腎機能強化",
+        "生殖機能向上",
+        "精力増強",
+        "泌尿器疾患治療"
+      ],
+      "fr": [
+        "Renforce la fonction rénale",
+        "Améliore la santé reproductive",
+        "Augmente l'énergie",
+        "Traite les problèmes urinaires"
+      ]
+    },
+    "instructions": {
+      "en": "Press firmly for 3-5 minutes. Also effective with moxibustion (heat therapy).",
+      "zh": "用力按压3-5分钟。艾灸效果更佳。",
+      "ja": "強く3-5分押し続けます。お灸も効果的。",
+      "fr": "Appuyez fermement pendant 3-5 minutes. Efficace aussi avec moxibustion."
+    },
+    "precaution": "Avoid during pregnancy"
+  },
+  {
+    "id": "bl40",
+    "names": {
+      "en": "Weizhong (BL40)",
+      "zh": "委中",
+      "zh_pinyin": "Wěi Zhōng",
+      "ja": "委中",
+      "ja_reading": "イチュウ",
+      "fr": "Weizhong (V40)"
+    },
+    "meridian": "Bladder",
+    "location": {
+      "en": "Center of the back of the knee, in the middle of the crease",
+      "zh": "膝关节后方，腘窝横纹中央",
+      "ja": "膝の後ろ、膝窩横紋の中央",
+      "fr": "Centre de l'arrière du genou, au milieu du pli"
+    },
+    "benefits": {
+      "en": [
+        "Relieves back pain",
+        "Reduces knee pain",
+        "Treats sciatica",
+        "Cools the blood"
+      ],
+      "zh": [
+        "缓解腰痛",
+        "减轻膝痛",
+        "治疗坐骨神经痛",
+        "凉血"
+      ],
+      "ja": [
+        "腰痛緩和",
+        "膝痛軽減",
+        "坐骨神経痛治療",
+        "清血"
+      ],
+      "fr": [
+        "Soulage le mal de dos",
+        "Réduit la douleur au genou",
+        "Traite la sciatique",
+        "Rafraîchit le sang"
+      ]
+    },
+    "important": true,
+    "instructions": {
+      "en": "Press firmly for 2-3 minutes. Key point for back pain relief.",
+      "zh": "用力按压2-3分钟。腰背疼痛要穴。",
+      "ja": "強く2-3分押し続けます。腰痛の要穴。",
+      "fr": "Appuyez fermement pendant 2-3 minutes."
+    },
+    "precaution": "Avoid in cases of blood clots"
+  },
+  {
+    "id": "bl57",
+    "names": {
+      "en": "Chengshan (BL57)",
+      "zh": "承山",
+      "zh_pinyin": "Chéng Shān",
+      "ja": "承山",
+      "ja_reading": "ショウザン",
+      "fr": "Chengshan (V57)"
+    },
+    "meridian": "Bladder",
+    "location": {
+      "en": "On the back of the lower leg, where the calf muscle forms a peak when standing on tiptoes",
+      "zh": "小腿后方，踮脚时腓肠肌肌腹下方的尖角处",
+      "ja": "ふくらはぎの後ろ、つま先立ち時の筋肉の peak 部分",
+      "fr": "Derrière la jambe inférieure, au sommet du mollet quand on se met sur la pointe des pieds"
+    },
+    "restless_legs": true,
+    "benefits": {
+      "en": [
+        "Relieves leg cramps",
+        "Reduces back pain",
+        "Treats hemorrhoids",
+        "Eases restless legs"
+      ],
+      "zh": [
+        "缓解腿抽筋",
+        "减轻腰痛",
+        "治疗痔疮",
+        "缓解不安腿"
+      ],
+      "ja": [
+        "足のけいれん緩和",
+        "腰痛軽減",
+        "痔治療",
+        "むずむず脚症候群"
+      ],
+      "fr": [
+        "Soulage les crampes",
+        "Réduit le mal de dos",
+        "Traite les hémorroïdes"
+      ]
+    },
+    "instructions": {
+      "en": "Press firmly with thumb for 2-3 minutes on each leg. Great for leg cramps at night.",
+      "zh": "用拇指用力按压2-3分钟，每条腿。夜间腿抽筋效果好。",
+      "ja": "親指で強く2-3分押し続けます。夜間の足のけいれんに。",
+      "fr": "Appuyez fermement avec le pouce pendant 2-3 minutes sur chaque jambe."
+    },
+    "precaution": "None significant"
+  },
+  {
+    "id": "li20",
+    "names": {
+      "en": "Yingxiang (LI20)",
+      "zh": "迎香",
+      "zh_pinyin": "Yíng Xiāng",
+      "ja": "迎香",
+      "ja_reading": "ゲイコウ",
+      "fr": "Yingxiang (GI20)"
+    },
+    "meridian": "Large Intestine",
+    "location": {
+      "en": "On the face, in the groove beside the nostril (nasolabial groove)",
+      "zh": "面部，鼻翼外缘中点旁，鼻唇沟中",
+      "ja": "顔面、鼻翼の外側溝（鼻唇溝）",
+      "fr": "Sur le visage, dans le sillon au côté de la narine"
+    },
+    "benefits": {
+      "en": [
+        "Clears nasal congestion",
+        "Relieves sinus pressure",
+        "Treats allergies",
+        "Improves sense of smell"
+      ],
+      "zh": [
+        "疏通鼻塞",
+        "缓解鼻窦压力",
+        "治疗过敏",
+        "改善嗅觉"
+      ],
+      "ja": [
+        "鼻づまり解消",
+        "副鼻腔の圧力緩和",
+        "アレルギー治療",
+        "嗅覚改善"
+      ],
+      "fr": [
+        "Dégage le nez",
+        "Soulage la pression des sinus",
+        "Traite les allergies",
+        "Améliore l'odorat"
+      ]
+    },
+    "instructions": {
+      "en": "Press on both sides of the nostrils simultaneously for 1-2 minutes.",
+      "zh": "同时按压鼻翼两侧1-2分钟。",
+      "ja": "鼻翼の両側を同時に1-2分押し続けます。",
+      "fr": "Appuyez des deux côtés des narines simultanément pendant 1-2 minutes."
+    },
+    "precaution": "None significant"
+  },
+  {
+    "id": "ex_hn3",
+    "names": {
+      "en": "Yintang (EX-HN3)",
+      "zh": "印堂",
+      "zh_pinyin": "Yìn Táng",
+      "ja": "印堂",
+      "ja_reading": "インドウ",
+      "fr": "Yintang (Extra)"
+    },
+    "meridian": "Extra point",
+    "location": {
+      "en": "Between the eyebrows, at the midpoint of the line connecting the inner ends of the eyebrows",
+      "zh": "两眉头连线的中点",
+      "ja": "眉間、両眉の内端を結んだ線の中点",
+      "fr": "Entre les sourcils, au milieu de la ligne reliant les extrémités internes des sourcils"
+    },
+    "benefits": {
+      "en": [
+        "Relieves headaches",
+        "Calms anxiety",
+        "Improves sleep",
+        "Clears nasal congestion"
+      ],
+      "zh": [
+        "缓解头痛",
+        "安神",
+        "改善睡眠",
+        "疏通鼻塞"
+      ],
+      "ja": [
+        "頭痛緩和",
+        "精神安定",
+        "睡眠改善",
+        "鼻づまり解消"
+      ],
+      "fr": [
+        "Soulage les maux de tête",
+        "Calme l'anxiété",
+        "Améliore le sommeil"
+      ]
+    },
+    "instructions": {
+      "en": "Press gently with fingertip for 1-2 minutes. Very calming.",
+      "zh": "用指尖轻轻按压1-2分钟。非常安神。",
+      "ja": "指先で軽く1-2分押し続けます。精神安定に最適。",
+      "fr": "Appuyez doucement avec le bout du doigt pendant 1-2 minutes."
+    },
+    "precaution": "None significant"
+  },
+  {
+    "id": "gb34",
+    "infographic": true,
+    "names": {
+      "en": "Yanglingquan (GB34)",
+      "zh": "阳陵泉",
+      "zh_pinyin": "Yáng Líng Quán",
+      "ja": "陽陵泉",
+      "ja_reading": "ョウリョウセン",
+      "fr": "Yanglingquan (VB34)"
+    },
+    "meridian": "Gallbladder",
+    "location": {
+      "en": "On the outer leg, in the depression below and in front of the head of the fibula (small bone below the knee)",
+      "zh": "小腿外侧，腓骨小头前下方的凹陷处",
+      "ja": "脚の外側、腓骨頭の前下方の凹み",
+      "fr": "Sur la jambe extérieure, dans la dépression sous la tête du péroné"
+    },
+    "benefits": {
+      "en": [
+        "Relieves knee pain",
+        "Treats muscle cramps",
+        "Improves joint mobility",
+        "Benefits tendons and ligaments"
+      ],
+      "zh": [
+        "缓解膝痛",
+        "治疗肌肉痉挛",
+        "改善关节活动",
+        "强筋壮骨"
+      ],
+      "ja": [
+        "膝痛緩和",
+        "筋けいれん治療",
+        "関節可動域改善",
+        "筋骨強化"
+      ],
+      "fr": [
+        "Soulage la douleur au genou",
+        "Traite les crampes",
+        "Améliore la mobilité articulaire"
+      ]
+    },
+    "instructions": {
+      "en": "Press firmly for 2-3 minutes on each leg. Influential point for tendons.",
+      "zh": "用力按压2-3分钟，每条腿。筋会穴。",
+      "ja": "強く2-3分押し続けます。筋の会穴。",
+      "fr": "Appuyez fermement pendant 2-3 minutes sur chaque jambe."
+    },
+    "precaution": "None significant"
+  },
+  {
+    "id": "kd3",
+    "names": {
+      "en": "Taixi (KD3)",
+      "zh": "太溪",
+      "zh_pinyin": "Tài Xī",
+      "ja": "太渓",
+      "ja_reading": "タイケイ",
+      "fr": "Taixi (R3)"
+    },
+    "meridian": "Kidney",
+    "location": {
+      "en": "Between the inner ankle bone and the Achilles tendon, in the depression",
+      "zh": "足内侧，内踝与跟腱之间的凹陷处",
+      "ja": "足の内側、内くるぶしとアキレス腱の間の凹み",
+      "fr": "Entre la malléole interne et le tendon d'Achille, dans la dépression"
+    },
+    "benefits": {
+      "en": [
+        "Strengthens kidney function",
+        "Relieves ankle pain",
+        "Treats tinnitus",
+        "Supports hearing"
+      ],
+      "zh": [
+        "补肾",
+        "缓解踝痛",
+        "治疗耳鸣",
+        "改善听力"
+      ],
+      "ja": [
+        "腎機能強化",
+        "足首の痛み緩和",
+        "耳鳴り治療",
+        "聴力改善"
+      ],
+      "fr": [
+        "Renforce la fonction rénale",
+        "Soulage la douleur de la cheville",
+        "Traite les acouphènes"
+      ]
+    },
+    "instructions": {
+      "en": "Press and massage for 2-3 minutes on each foot. Key kidney tonification point.",
+      "zh": "按压并按摩2-3分钟，每只脚。补肾要穴。",
+      "ja": "2-3分按摩します。腎の補強の要穴。",
+      "fr": "Appuyez et massez pendant 2-3 minutes sur chaque pied."
+    },
+    "precaution": "None significant"
+  }
+]

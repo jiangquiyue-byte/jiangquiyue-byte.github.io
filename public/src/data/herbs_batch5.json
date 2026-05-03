@@ -1,0 +1,332 @@
+[
+  {
+    "id": "bupleurum",
+    "names": {
+      "en": "Bupleurum",
+      "zh": "柴胡",
+      "zh_pinyin": "Chái Hú",
+      "ja": "サイコ",
+      "ja_reading": "サイコ",
+      "fr": "Buplèvre"
+    },
+    "scientific_name": "Bupleurum chinense",
+    "family": "Apiaceae",
+    "origin": ["China", "Japan", "Korea"],
+    "parts_used": ["Root"],
+    "nature": "Cool",
+    "flavor": "Bitter, Pungent",
+    "meridians": ["Liver", "Gallbladder"],
+    "categories": ["fever", "liver", "mood", "digestion"],
+    "benefits": {
+      "en": ["Reduces fever", "Soothes liver Qi stagnation", "Relieves chest congestion", "Treats malaria"],
+      "zh": ["退热", "疏肝理气", "缓解胸闷", "治疗疟疾"]
+    },
+    "uses": {
+      "en": "Decoction or capsules. Key ingredient in Xiao Chai Hu Tang formula.",
+      "zh": "煎剂或胶囊。小柴胡汤的关键成分。"
+    },
+    "precautions": {
+      "en": "May cause dizziness in high doses. Avoid with autoimmune conditions.",
+      "zh": "大剂量可能导致头晕。自身免疫性疾病患者避免使用。"
+    },
+    "modern_research": "Saikosaponins (active compounds) show anti-inflammatory and liver-protective effects. (PubMed: 16901203)",
+    "ben_cao_ref": "本草纲目·草部·柴胡"
+  },
+  {
+    "id": "poria",
+    "names": {
+      "en": "Poria",
+      "zh": "茯苓",
+      "zh_pinyin": "Fú Líng",
+      "ja": "ブクリョウ",
+      "ja_reading": "ブクリョウ",
+      "fr": "Poria"
+    },
+    "scientific_name": "Wolfiporia cocos",
+    "family": "Polyporaceae",
+    "origin": ["China", "Japan", "North America"],
+    "parts_used": ["Sclerotium (fungal body)"],
+    "nature": "Neutral",
+    "flavor": "Sweet, Bland",
+    "meridians": ["Spleen", "Heart", "Kidney"],
+    "categories": ["diuretic", "digestion", "calming", "immune"],
+    "benefits": {
+      "en": ["Strengthens spleen and digestion", "Promotes urination", "Calms the mind", "Boosts immunity"],
+      "zh": ["健脾利水", "宁心安神", "渗湿", "增强免疫"]
+    },
+    "uses": {
+      "en": "Decoction, powder, or added to soups. Often used in classical formulas.",
+      "zh": "煎剂、粉末或加入汤中。常用于经典方剂。"
+    },
+    "precautions": {
+      "en": "Generally safe. Use with caution in cases of severe yin deficiency.",
+      "zh": "一般安全。阴虚严重者慎用。"
+    },
+    "modern_research": "Poria cocos polysaccharides show immunomodulatory effects. (PubMed: 28704924)",
+    "ben_cao_ref": "本草纲目·木部·茯苓"
+  },
+  {
+    "id": "atractylodes",
+    "names": {
+      "en": "Atractylodes",
+      "zh": "白术",
+      "zh_pinyin": "Bái Zhú",
+      "ja": "ビャクジュツ",
+      "ja_reading": "ビャクジュツ",
+      "fr": "Atractylode"
+    },
+    "scientific_name": "Atractylodes macrocephala",
+    "family": "Asteraceae",
+    "origin": ["China", "Japan"],
+    "parts_used": ["Rhizome"],
+    "nature": "Warm",
+    "flavor": "Bitter, Sweet",
+    "meridians": ["Spleen", "Stomach"],
+    "categories": ["digestion", "energy", "diuretic", "immune"],
+    "benefits": {
+      "en": ["Strengthens spleen function", "Dries dampness", "Stops sweating", "Supports fetal health"],
+      "zh": ["健脾燥湿", "止汗", "安胎", "利水"]
+    },
+    "uses": {
+      "en": "Decoction or powder. Commonly paired with Poria in formulas.",
+      "zh": "煎剂或粉末。常与茯苓配伍使用。"
+    },
+    "precautions": {
+      "en": "Not suitable for yin deficiency with heat signs.",
+      "zh": "阴虚内热者不宜使用。"
+    },
+    "modern_research": "Atractylodes has gastroprotective and anti-inflammatory properties. (PubMed: 25724506)",
+    "ben_cao_ref": "本草纲目·草部·术"
+  },
+  {
+    "id": "safflower",
+    "names": {
+      "en": "Safflower",
+      "zh": "红花",
+      "zh_pinyin": "Hóng Huā",
+      "ja": "ベニバナ",
+      "ja_reading": "ベニバナ",
+      "fr": "Carthame"
+    },
+    "scientific_name": "Carthamus tinctorius",
+    "family": "Asteraceae",
+    "origin": ["China", "India", "Central Asia"],
+    "parts_used": ["Flower"],
+    "nature": "Warm",
+    "flavor": "Pungent",
+    "meridians": ["Heart", "Liver"],
+    "categories": ["blood", "circulation", "pain_relief", "women_health"],
+    "benefits": {
+      "en": ["Activates blood circulation", "Relieves pain", "Regulates menstruation", "Reduces bruises"],
+      "zh": ["活血化瘀", "通经止痛", "调经", "消肿"]
+    },
+    "uses": {
+      "en": "Decoction, tincture, or topical oil. Used in blood-moving formulas.",
+      "zh": "煎剂、酊剂或外用油。用于活血方剂。"
+    },
+    "precautions": {
+      "en": "Avoid during pregnancy. May increase bleeding risk.",
+      "zh": "孕期禁用。可能增加出血风险。"
+    },
+    "modern_research": "Hydroxysafflor yellow A shows neuroprotective and cardioprotective effects. (PubMed: 25158952)",
+    "ben_cao_ref": "本草纲目·草部·红花"
+  },
+  {
+    "id": "notoginseng",
+    "names": {
+      "en": "Notoginseng",
+      "zh": "三七",
+      "zh_pinyin": "Sān Qī",
+      "ja": "サンシチ",
+      "ja_reading": "サンシチ",
+      "fr": "Notoginseng"
+    },
+    "scientific_name": "Panax notoginseng",
+    "family": "Araliaceae",
+    "origin": ["Yunnan, China", "Guangxi, China"],
+    "parts_used": ["Root"],
+    "nature": "Warm",
+    "flavor": "Sweet, Slightly bitter",
+    "meridians": ["Liver", "Stomach"],
+    "categories": ["blood", "circulation", "pain_relief", "cardiovascular"],
+    "benefits": {
+      "en": ["Stops bleeding", "Activates blood circulation", "Reduces swelling and pain", "Supports heart health"],
+      "zh": ["止血", "活血化瘀", "消肿止痛", "保护心血管"]
+    },
+    "uses": {
+      "en": "Powder, capsules, or decoction. Taken internally or applied topically for wounds.",
+      "zh": "粉末、胶囊或煎剂。内服或外用于伤口。"
+    },
+    "precautions": {
+      "en": "Avoid during pregnancy. May interact with blood thinners.",
+      "zh": "孕期禁用。可能与抗凝血药相互作用。"
+    },
+    "modern_research": "Notoginsenosides have hemostatic and cardioprotective properties. (PubMed: 25139562)",
+    "ben_cao_ref": "本草纲目·草部·三七"
+  },
+  {
+    "id": "dendrobium",
+    "names": {
+      "en": "Dendrobium",
+      "zh": "石斛",
+      "zh_pinyin": "Shí Hú",
+      "ja": "セキコク",
+      "ja_reading": "セキコク",
+      "fr": "Dendrobium"
+    },
+    "scientific_name": "Dendrobium officinale",
+    "family": "Orchidaceae",
+    "origin": ["China", "Southeast Asia"],
+    "parts_used": ["Stem"],
+    "nature": "Cool",
+    "flavor": "Sweet, Bland",
+    "meridians": ["Stomach", "Kidney"],
+    "categories": ["yin", "stomach", "eye_health", "immunity"],
+    "benefits": {
+      "en": ["Nourishes yin and fluids", "Benefits the stomach", "Clears heat", "Improves vision"],
+      "zh": ["养阴生津", "益胃", "清热", "明目"]
+    },
+    "uses": {
+      "en": "Decoction, tea, or capsules. Often simmered for 30+ minutes.",
+      "zh": "煎剂、茶或胶囊。通常需煎煮30分钟以上。"
+    },
+    "precautions": {
+      "en": "Not suitable for conditions with cold and dampness.",
+      "zh": "寒湿证不宜使用。"
+    },
+    "modern_research": "Dendrobium polysaccharides show immunomodulatory and antioxidant effects. (PubMed: 27022980)",
+    "ben_cao_ref": "本草纲目·草部·石斛"
+  },
+  {
+    "id": "gastrodia",
+    "names": {
+      "en": "Gastrodia",
+      "zh": "天麻",
+      "zh_pinyin": "Tiān Má",
+      "ja": "テンマ",
+      "ja_reading": "テンマ",
+      "fr": "Gastrodia"
+    },
+    "scientific_name": "Gastrodia elata",
+    "family": "Orchidaceae",
+    "origin": ["China", "Japan", "Korea"],
+    "parts_used": ["Tuber"],
+    "nature": "Neutral",
+    "flavor": "Sweet",
+    "meridians": ["Liver"],
+    "categories": ["headache", "dizziness", "convulsions", "nerve"],
+    "benefits": {
+      "en": ["Relieves headaches and migraines", "Stops dizziness", "Calms spasms and convulsions", "Improves circulation"],
+      "zh": ["息风止痉", "平抑肝阳", "祛风通络", "缓解头痛眩晕"]
+    },
+    "uses": {
+      "en": "Decoction, powder, or capsules. Often paired with Gastrodia-Uncaria formula.",
+      "zh": "煎剂、粉末或胶囊。常与钩藤配伍使用。"
+    },
+    "precautions": {
+      "en": "Generally safe. Use with caution in blood deficiency.",
+      "zh": "一般安全。血虚者慎用。"
+    },
+    "modern_research": "Gastrodin (active compound) has neuroprotective and anti-inflammatory effects. (PubMed: 25710988)",
+    "ben_cao_ref": "本草纲目·草部·赤箭/天麻"
+  },
+  {
+    "id": "eucommia",
+    "names": {
+      "en": "Eucommia",
+      "zh": "杜仲",
+      "zh_pinyin": "Dù Zhòng",
+      "ja": "トチュウ",
+      "ja_reading": "トチュウ",
+      "fr": "Eucommia"
+    },
+    "scientific_name": "Eucommia ulmoides",
+    "family": "Eucommiaceae",
+    "origin": ["China"],
+    "parts_used": ["Bark"],
+    "nature": "Warm",
+    "flavor": "Sweet",
+    "meridians": ["Liver", "Kidney"],
+    "categories": ["bone", "joint", "blood_pressure", "energy"],
+    "benefits": {
+      "en": ["Strengthens bones and joints", "Lowers blood pressure", "Supports kidney function", "Reduces lower back pain"],
+      "zh": ["强筋骨", "降血压", "补肾", "缓解腰痛"]
+    },
+    "uses": {
+      "en": "Decoction, capsules, or tea. Simmer bark for 20-30 minutes.",
+      "zh": "煎剂、胶囊或茶。树皮需煎煮20-30分钟。"
+    },
+    "precautions": {
+      "en": "Generally safe. May interact with blood pressure medications.",
+      "zh": "一般安全。可能与降压药相互作用。"
+    },
+    "modern_research": "Eucommia bark extract shows antihypertensive and bone-strengthening effects. (PubMed: 22963622)",
+    "ben_cao_ref": "本草纲目·木部·杜仲"
+  },
+  {
+    "id": "pinellia",
+    "names": {
+      "en": "Pinellia",
+      "zh": "半夏",
+      "zh_pinyin": "Bàn Xià",
+      "ja": "ハンゲ",
+      "ja_reading": "ハンゲ",
+      "fr": "Pinellia"
+    },
+    "scientific_name": "Pinellia ternata",
+    "family": "Araceae",
+    "origin": ["China", "Japan", "Korea"],
+    "parts_used": ["Tuber"],
+    "nature": "Warm",
+    "flavor": "Pungent",
+    "meridians": ["Spleen", "Stomach", "Lung"],
+    "categories": ["respiratory", "digestion", "nausea", "phlegm"],
+    "benefits": {
+      "en": ["Dries dampness and phlegm", "Stops vomiting", "Reduces nausea", "Relieves chest congestion"],
+      "zh": ["燥湿化痰", "降逆止呕", "消痞散结", "缓解胸闷"]
+    },
+    "uses": {
+      "en": "Decoction (processed form only). Must be processed before use - raw form is toxic.",
+      "zh": "煎剂（仅用炮制品）。必须炮制后使用——生品有毒。"
+    },
+    "precautions": {
+      "en": "RAW FORM IS TOXIC. Always use processed (Fa Ban Xia). Avoid during pregnancy.",
+      "zh": "生品有毒！必须使用法半夏或姜半夏。孕期禁用。"
+    },
+    "modern_research": "Processed pinellia has antiemetic and expectorant effects. (PubMed: 25162586)",
+    "ben_cao_ref": "本草纲目·草部·半夏"
+  },
+  {
+    "id": "tangerine_peel",
+    "names": {
+      "en": "Tangerine Peel",
+      "zh": "陈皮",
+      "zh_pinyin": "Chén Pí",
+      "ja": "チンピ",
+      "ja_reading": "チンピ",
+      "fr": "Écorce de mandarine"
+    },
+    "scientific_name": "Citrus reticulata",
+    "family": "Rutaceae",
+    "origin": ["China", "Japan", "Southeast Asia"],
+    "parts_used": ["Dried peel"],
+    "nature": "Warm",
+    "flavor": "Pungent, Bitter",
+    "meridians": ["Spleen", "Lung"],
+    "categories": ["digestion", "respiratory", "phlegm", "qi"],
+    "benefits": {
+      "en": ["Regulates Qi", "Dries dampness", "Relieves bloating", "Reduces phlegm"],
+      "zh": ["理气健脾", "燥湿化痰", "缓解胀气", "减少痰液"]
+    },
+    "uses": {
+      "en": "Tea, decoction, or added to cooking. Aged peel is more valued.",
+      "zh": "茶、煎剂或加入烹饪中。陈年陈皮价值更高。"
+    },
+    "precautions": {
+      "en": "Not suitable for dry cough due to yin deficiency.",
+      "zh": "阴虚燥咳不宜使用。"
+    },
+    "modern_research": "Citrus peel flavonoids have anti-inflammatory and digestive benefits. (PubMed: 27837509)",
+    "ben_cao_ref": "本草纲目·果部·橘"
+  }
+]

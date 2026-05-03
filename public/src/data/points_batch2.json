@@ -1,0 +1,191 @@
+[
+  {
+    "id": "bl40",
+    "names": {
+      "en": "Weizhong (BL40)",
+      "zh": "委中",
+      "zh_pinyin": "Wěi Zhōng",
+      "ja": "委中",
+      "ja_reading": "イチュウ",
+      "fr": "Weizhong (V40)"
+    },
+    "meridian": "Bladder",
+    "location": {
+      "en": "Center of the back of the knee, in the middle of the crease",
+      "zh": "膝关节后方，腘窝横纹中央",
+      "ja": "膝の後ろ、膝窩横紋の中央",
+      "fr": "Centre de l'arrière du genou, au milieu du pli"
+    },
+    "benefits": {
+      "en": ["Relieves back pain", "Reduces knee pain", "Treats sciatica", "Cools the blood"],
+      "zh": ["缓解腰痛", "减轻膝痛", "治疗坐骨神经痛", "凉血"],
+      "ja": ["腰痛緩和", "膝痛軽減", "坐骨神経痛治療", "清血"],
+      "fr": ["Soulage le mal de dos", "Réduit la douleur au genou", "Traite la sciatique", "Rafraîchit le sang"]
+    },
+    "important": true,
+    "instructions": {
+      "en": "Press firmly for 2-3 minutes. Key point for back pain relief.",
+      "zh": "用力按压2-3分钟。腰背疼痛要穴。",
+      "ja": "強く2-3分押し続けます。腰痛の要穴。",
+      "fr": "Appuyez fermement pendant 2-3 minutes."
+    },
+    "precaution": "Avoid in cases of blood clots"
+  },
+  {
+    "id": "bl57",
+    "names": {
+      "en": "Chengshan (BL57)",
+      "zh": "承山",
+      "zh_pinyin": "Chéng Shān",
+      "ja": "承山",
+      "ja_reading": "ショウザン",
+      "fr": "Chengshan (V57)"
+    },
+    "meridian": "Bladder",
+    "location": {
+      "en": "On the back of the lower leg, where the calf muscle forms a peak when standing on tiptoes",
+      "zh": "小腿后方，踮脚时腓肠肌肌腹下方的尖角处",
+      "ja": "ふくらはぎの後ろ、つま先立ち時の筋肉の peak 部分",
+      "fr": "Derrière la jambe inférieure, au sommet du mollet quand on se met sur la pointe des pieds"
+    },
+    "restless_legs": true,
+    "benefits": {
+      "en": ["Relieves leg cramps", "Reduces back pain", "Treats hemorrhoids", "Eases restless legs"],
+      "zh": ["缓解腿抽筋", "减轻腰痛", "治疗痔疮", "缓解不安腿"],
+      "ja": ["足のけいれん緩和", "腰痛軽減", "痔治療", "むずむず脚症候群"],
+      "fr": ["Soulage les crampes", "Réduit le mal de dos", "Traite les hémorroïdes"]
+    },
+    "instructions": {
+      "en": "Press firmly with thumb for 2-3 minutes on each leg. Great for leg cramps at night.",
+      "zh": "用拇指用力按压2-3分钟，每条腿。夜间腿抽筋效果好。",
+      "ja": "親指で強く2-3分押し続けます。夜間の足のけいれんに。",
+      "fr": "Appuyez fermement avec le pouce pendant 2-3 minutes sur chaque jambe."
+    },
+    "precaution": "None significant"
+  },
+  {
+    "id": "li20",
+    "names": {
+      "en": "Yingxiang (LI20)",
+      "zh": "迎香",
+      "zh_pinyin": "Yíng Xiāng",
+      "ja": "迎香",
+      "ja_reading": "ゲイコウ",
+      "fr": "Yingxiang (GI20)"
+    },
+    "meridian": "Large Intestine",
+    "location": {
+      "en": "On the face, in the groove beside the nostril (nasolabial groove)",
+      "zh": "面部，鼻翼外缘中点旁，鼻唇沟中",
+      "ja": "顔面、鼻翼の外側溝（鼻唇溝）",
+      "fr": "Sur le visage, dans le sillon au côté de la narine"
+    },
+    "benefits": {
+      "en": ["Clears nasal congestion", "Relieves sinus pressure", "Treats allergies", "Improves sense of smell"],
+      "zh": ["疏通鼻塞", "缓解鼻窦压力", "治疗过敏", "改善嗅觉"],
+      "ja": ["鼻づまり解消", "副鼻腔の圧力緩和", "アレルギー治療", "嗅覚改善"],
+      "fr": ["Dégage le nez", "Soulage la pression des sinus", "Traite les allergies", "Améliore l'odorat"]
+    },
+    "instructions": {
+      "en": "Press on both sides of the nostrils simultaneously for 1-2 minutes.",
+      "zh": "同时按压鼻翼两侧1-2分钟。",
+      "ja": "鼻翼の両側を同時に1-2分押し続けます。",
+      "fr": "Appuyez des deux côtés des narines simultanément pendant 1-2 minutes."
+    },
+    "precaution": "None significant"
+  },
+  {
+    "id": "ex_hn3",
+    "names": {
+      "en": "Yintang (EX-HN3)",
+      "zh": "印堂",
+      "zh_pinyin": "Yìn Táng",
+      "ja": "印堂",
+      "ja_reading": "インドウ",
+      "fr": "Yintang (Extra)"
+    },
+    "meridian": "Extra point",
+    "location": {
+      "en": "Between the eyebrows, at the midpoint of the line connecting the inner ends of the eyebrows",
+      "zh": "两眉头连线的中点",
+      "ja": "眉間、両眉の内端を結んだ線の中点",
+      "fr": "Entre les sourcils, au milieu de la ligne reliant les extrémités internes des sourcils"
+    },
+    "benefits": {
+      "en": ["Relieves headaches", "Calms anxiety", "Improves sleep", "Clears nasal congestion"],
+      "zh": ["缓解头痛", "安神", "改善睡眠", "疏通鼻塞"],
+      "ja": ["頭痛緩和", "精神安定", "睡眠改善", "鼻づまり解消"],
+      "fr": ["Soulage les maux de tête", "Calme l'anxiété", "Améliore le sommeil"]
+    },
+    "instructions": {
+      "en": "Press gently with fingertip for 1-2 minutes. Very calming.",
+      "zh": "用指尖轻轻按压1-2分钟。非常安神。",
+      "ja": "指先で軽く1-2分押し続けます。精神安定に最適。",
+      "fr": "Appuyez doucement avec le bout du doigt pendant 1-2 minutes."
+    },
+    "precaution": "None significant"
+  },
+  {
+    "id": "gb34",
+    "infographic": true,
+    "names": {
+      "en": "Yanglingquan (GB34)",
+      "zh": "阳陵泉",
+      "zh_pinyin": "Yáng Líng Quán",
+      "ja": "陽陵泉",
+      "ja_reading": "ョウリョウセン",
+      "fr": "Yanglingquan (VB34)"
+    },
+    "meridian": "Gallbladder",
+    "location": {
+      "en": "On the outer leg, in the depression below and in front of the head of the fibula (small bone below the knee)",
+      "zh": "小腿外侧，腓骨小头前下方的凹陷处",
+      "ja": "脚の外側、腓骨頭の前下方の凹み",
+      "fr": "Sur la jambe extérieure, dans la dépression sous la tête du péroné"
+    },
+    "benefits": {
+      "en": ["Relieves knee pain", "Treats muscle cramps", "Improves joint mobility", "Benefits tendons and ligaments"],
+      "zh": ["缓解膝痛", "治疗肌肉痉挛", "改善关节活动", "强筋壮骨"],
+      "ja": ["膝痛緩和", "筋けいれん治療", "関節可動域改善", "筋骨強化"],
+      "fr": ["Soulage la douleur au genou", "Traite les crampes", "Améliore la mobilité articulaire"]
+    },
+    "instructions": {
+      "en": "Press firmly for 2-3 minutes on each leg. Influential point for tendons.",
+      "zh": "用力按压2-3分钟，每条腿。筋会穴。",
+      "ja": "強く2-3分押し続けます。筋の会穴。",
+      "fr": "Appuyez fermement pendant 2-3 minutes sur chaque jambe."
+    },
+    "precaution": "None significant"
+  },
+  {
+    "id": "kd3",
+    "names": {
+      "en": "Taixi (KD3)",
+      "zh": "太溪",
+      "zh_pinyin": "Tài Xī",
+      "ja": "太渓",
+      "ja_reading": "タイケイ",
+      "fr": "Taixi (R3)"
+    },
+    "meridian": "Kidney",
+    "location": {
+      "en": "Between the inner ankle bone and the Achilles tendon, in the depression",
+      "zh": "足内侧，内踝与跟腱之间的凹陷处",
+      "ja": "足の内側、内くるぶしとアキレス腱の間の凹み",
+      "fr": "Entre la malléole interne et le tendon d'Achille, dans la dépression"
+    },
+    "benefits": {
+      "en": ["Strengthens kidney function", "Relieves ankle pain", "Treats tinnitus", "Supports hearing"],
+      "zh": ["补肾", "缓解踝痛", "治疗耳鸣", "改善听力"],
+      "ja": ["腎機能強化", "足首の痛み緩和", "耳鳴り治療", "聴力改善"],
+      "fr": ["Renforce la fonction rénale", "Soulage la douleur de la cheville", "Traite les acouphènes"]
+    },
+    "instructions": {
+      "en": "Press and massage for 2-3 minutes on each foot. Key kidney tonification point.",
+      "zh": "按压并按摩2-3分钟，每只脚。补肾要穴。",
+      "ja": "2-3分按摩します。腎の補強の要穴。",
+      "fr": "Appuyez et massez pendant 2-3 minutes sur chaque pied."
+    },
+    "precaution": "None significant"
+  }
+]

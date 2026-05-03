@@ -1,0 +1,1204 @@
+/* ============================================
+   Herbal Atlas — Style System
+   Inspired by anthropic.com/research
+   ============================================ */
+
+/* Reset & Base */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Colors */
+    --color-primary: #2d5016;
+    --color-primary-light: #4a7c28;
+    --color-primary-bg: #f0f7ec;
+    --color-accent: #c41e3a;
+    --color-text: #1a1a1a;
+    --color-text-secondary: #6b6b6b;
+    --color-text-tertiary: #999;
+    --color-bg: #ffffff;
+    --color-bg-alt: #fafaf8;
+    --color-border: #e5e5e5;
+    --color-border-light: #f0f0f0;
+
+    /* Typography */
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-serif: 'Noto Serif SC', Georgia, serif;
+
+    /* Spacing */
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 32px;
+    --space-2xl: 48px;
+    --space-3xl: 64px;
+    --space-4xl: 96px;
+
+    /* Layout */
+    --max-width: 1200px;
+    --nav-height: 64px;
+
+    /* Transitions */
+    --transition: 0.2s ease;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: var(--font-sans);
+    color: var(--color-text);
+    background: var(--color-bg);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+}
+
+/* ============================================
+   Navigation
+   ============================================ */
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--nav-height);
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--color-border-light);
+    z-index: 1000;
+}
+
+.nav-inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.logo-icon {
+    font-size: 24px;
+}
+
+.nav-links {
+    display: flex;
+    gap: var(--space-xl);
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--color-text-secondary);
+    font-size: 14px;
+    font-weight: 500;
+    transition: color var(--transition);
+}
+
+.nav-links a:hover {
+    color: var(--color-text);
+}
+
+.nav-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: var(--space-sm);
+}
+
+.nav-toggle span {
+    width: 20px;
+    height: 2px;
+    background: var(--color-text);
+    transition: var(--transition);
+}
+
+/* ============================================
+   Hero Section
+   ============================================ */
+.hero {
+    padding-top: calc(var(--nav-height) + var(--space-4xl));
+    padding-bottom: var(--space-4xl);
+    text-align: center;
+}
+
+.hero-label {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    margin-bottom: var(--space-lg);
+}
+
+.hero-title {
+    font-size: clamp(36px, 6vw, 64px);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin-bottom: var(--space-lg);
+    color: var(--color-text);
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    color: var(--color-text-secondary);
+    max-width: 600px;
+    margin: 0 auto var(--space-xl);
+    line-height: 1.7;
+}
+
+.hero-subtitle em {
+    font-family: var(--font-serif);
+    font-style: normal;
+    color: var(--color-primary);
+}
+
+.hero-actions {
+    display: flex;
+    gap: var(--space-md);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Buttons */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all var(--transition);
+    cursor: pointer;
+    border: none;
+}
+
+.btn-primary {
+    background: var(--color-primary);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: var(--color-primary-light);
+    transform: translateY(-1px);
+}
+
+.btn-secondary {
+    background: var(--color-bg);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+}
+
+.btn-secondary:hover {
+    background: var(--color-bg-alt);
+    border-color: var(--color-text-tertiary);
+}
+
+.btn-outline {
+    background: transparent;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+}
+
+.btn-outline:hover {
+    background: var(--color-primary-bg);
+}
+
+/* ============================================
+   Stats Bar
+   ============================================ */
+.stats-bar {
+    background: var(--color-bg-alt);
+    border-top: 1px solid var(--color-border-light);
+    border-bottom: 1px solid var(--color-border-light);
+    padding: var(--space-xl) 0;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-xl);
+    text-align: center;
+}
+
+.stat-number {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--color-primary);
+    line-height: 1.2;
+}
+
+.stat-label {
+    display: block;
+    font-size: 13px;
+    color: var(--color-text-secondary);
+    margin-top: var(--space-xs);
+}
+
+/* ============================================
+   Sections
+   ============================================ */
+.section {
+    padding: var(--space-4xl) 0;
+}
+
+.section-alt {
+    background: var(--color-bg-alt);
+}
+
+.section-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto var(--space-3xl);
+}
+
+.section-label {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--color-primary);
+    margin-bottom: var(--space-md);
+}
+
+.section-title {
+    font-size: clamp(28px, 4vw, 42px);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin-bottom: var(--space-md);
+}
+
+.section-title em {
+    font-family: var(--font-serif);
+    font-style: normal;
+    color: var(--color-primary);
+}
+
+.section-desc {
+    font-size: 16px;
+    color: var(--color-text-secondary);
+    line-height: 1.7;
+}
+
+.section-footer {
+    text-align: center;
+    margin-top: var(--space-3xl);
+}
+
+/* ============================================
+   Filter Bar
+   ============================================ */
+.filter-bar {
+    display: flex;
+    gap: var(--space-sm);
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: var(--space-2xl);
+}
+
+.filter-btn {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: 1px solid var(--color-border);
+    background: var(--color-bg);
+    color: var(--color-text-secondary);
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--transition);
+}
+
+.filter-btn:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+
+.filter-btn.active {
+    background: var(--color-primary);
+    color: white;
+    border-color: var(--color-primary);
+}
+
+/* ============================================
+   Herbs Grid
+   ============================================ */
+.herbs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: var(--space-lg);
+}
+
+.herb-card {
+    background: var(--color-bg);
+    border: 1px solid var(--color-border-light);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all var(--transition);
+    cursor: pointer;
+}
+
+.herb-card-img {
+    height: 180px;
+    overflow: hidden;
+    background: linear-gradient(135deg, var(--color-primary-bg), #e8f5e9);
+}
+
+.herb-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.herb-card:hover .herb-card-img img {
+    transform: scale(1.05);
+}
+
+.herb-card-body {
+    padding: var(--space-xl);
+}
+
+.herb-card:hover {
+    border-color: var(--color-primary);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    transform: translateY(-2px);
+}
+
+.herb-card-header {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-md);
+    margin-bottom: var(--space-md);
+}
+
+.herb-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.herb-card-header h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.herb-chinese {
+    font-family: var(--font-serif);
+    font-size: 14px;
+    color: var(--color-text-tertiary);
+}
+
+.herb-card p {
+    font-size: 14px;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    margin-bottom: var(--space-md);
+}
+
+.herb-tags {
+    display: flex;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+}
+
+.herb-tag {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 500;
+    background: var(--color-primary-bg);
+    color: var(--color-primary);
+}
+
+/* ============================================
+   Body Map (Acupressure)
+   ============================================ */
+.body-map-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-3xl);
+    align-items: center;
+    margin-bottom: var(--space-3xl);
+}
+
+.body-map {
+    background: var(--color-bg);
+    border: 1px solid var(--color-border-light);
+    border-radius: 16px;
+    padding: var(--space-2xl);
+    text-align: center;
+}
+
+.body-svg {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.body-outline {
+    stroke: var(--color-border);
+    stroke-width: 1.5;
+}
+
+.point {
+    fill: var(--color-primary);
+    cursor: pointer;
+    transition: all var(--transition);
+    opacity: 0.7;
+}
+
+.point:hover {
+    opacity: 1;
+    r: 8;
+    fill: var(--color-accent);
+}
+
+.point-info {
+    padding: var(--space-xl);
+}
+
+.point-info h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: var(--space-md);
+}
+
+.point-benefit {
+    font-size: 16px;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-lg);
+}
+
+.point-instructions {
+    background: var(--color-primary-bg);
+    border-radius: 12px;
+    padding: var(--space-lg);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* Points Grid */
+.points-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: var(--space-lg);
+}
+
+.point-card {
+    background: var(--color-bg);
+    border: 1px solid var(--color-border-light);
+    border-radius: 12px;
+    padding: var(--space-xl);
+    cursor: pointer;
+    transition: all var(--transition);
+}
+
+.point-card:hover {
+    border-color: var(--color-primary);
+    transform: translateY(-2px);
+}
+
+.point-card-icon {
+    font-size: 32px;
+    margin-bottom: var(--space-md);
+}
+
+.point-card h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: var(--space-sm);
+}
+
+.point-card p {
+    font-size: 14px;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-md);
+}
+
+.point-card-tag {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--color-primary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ============================================
+   Tea Cards
+   ============================================ */
+.teas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: var(--space-lg);
+}
+
+.tea-card {
+    background: var(--color-bg);
+    border: 1px solid var(--color-border-light);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all var(--transition);
+    cursor: pointer;
+}
+
+.tea-card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    transform: translateY(-2px);
+}
+
+.tea-card-img {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tea-emoji {
+    font-size: 48px;
+}
+
+.tea-card-body {
+    padding: var(--space-lg);
+}
+
+.tea-tag {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    background: var(--color-primary-bg);
+    color: var(--color-primary);
+    margin-bottom: var(--space-sm);
+}
+
+.tea-card h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: var(--space-sm);
+}
+
+.tea-card p {
+    font-size: 14px;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-md);
+}
+
+.tea-meta {
+    display: flex;
+    gap: var(--space-lg);
+    font-size: 13px;
+    color: var(--color-text-tertiary);
+}
+
+/* ============================================
+   TCM Basics
+   ============================================ */
+.basics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: var(--space-lg);
+}
+
+.basic-card {
+    background: var(--color-bg);
+    border: 1px solid var(--color-border-light);
+    border-radius: 12px;
+    padding: var(--space-xl);
+    transition: all var(--transition);
+    cursor: pointer;
+}
+
+.basic-card:hover {
+    border-color: var(--color-primary);
+    transform: translateY(-2px);
+}
+
+.basic-icon {
+    font-size: 36px;
+    margin-bottom: var(--space-md);
+}
+
+.basic-card h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: var(--space-sm);
+}
+
+.basic-card p {
+    font-size: 14px;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    margin-bottom: var(--space-md);
+}
+
+.basic-link {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.basic-link:hover {
+    text-decoration: underline;
+}
+
+/* ============================================
+   Newsletter
+   ============================================ */
+.newsletter-section {
+    padding: var(--space-4xl) 0;
+    background: var(--color-primary);
+    color: white;
+    text-align: center;
+}
+
+.newsletter-content h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: var(--space-md);
+}
+
+.newsletter-content p {
+    font-size: 16px;
+    opacity: 0.9;
+    margin-bottom: var(--space-xl);
+}
+
+.newsletter-form {
+    display: flex;
+    gap: var(--space-sm);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+}
+
+.newsletter-form .btn {
+    background: white;
+    color: var(--color-primary);
+}
+
+.newsletter-form .btn:hover {
+    background: var(--color-bg-alt);
+}
+
+/* ============================================
+   Footer
+   ============================================ */
+.footer {
+    background: var(--color-bg-alt);
+    border-top: 1px solid var(--color-border-light);
+    padding: var(--space-3xl) 0 var(--space-xl);
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: var(--space-2xl);
+    margin-bottom: var(--space-2xl);
+}
+
+.footer-brand p {
+    font-size: 14px;
+    color: var(--color-text-secondary);
+    margin-top: var(--space-md);
+}
+
+.footer-links h5 {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: var(--space-md);
+    color: var(--color-text);
+}
+
+.footer-links a {
+    display: block;
+    font-size: 14px;
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    margin-bottom: var(--space-sm);
+    transition: color var(--transition);
+}
+
+.footer-links a:hover {
+    color: var(--color-primary);
+}
+
+.footer-bottom {
+    border-top: 1px solid var(--color-border-light);
+    padding-top: var(--space-lg);
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 13px;
+    color: var(--color-text-tertiary);
+}
+
+/* ============================================
+   Responsive
+   ============================================ */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: var(--nav-height);
+        left: 0;
+        right: 0;
+        background: white;
+        flex-direction: column;
+        padding: var(--space-lg);
+        border-bottom: 1px solid var(--color-border);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-toggle {
+        display: flex;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .body-map-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: var(--space-xl);
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 28px;
+    }
+
+    .herbs-grid,
+    .teas-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ============================================
+   Language Switcher
+   ============================================ */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+}
+
+.lang-switcher {
+    display: flex;
+    gap: 2px;
+    background: var(--color-bg-alt);
+    border-radius: 8px;
+    padding: 3px;
+    border: 1px solid var(--color-border-light);
+}
+
+.lang-btn {
+    padding: 6px 12px;
+    border: none;
+    background: transparent;
+    color: var(--color-text-secondary);
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all var(--transition);
+    font-family: var(--font-sans);
+    white-space: nowrap;
+}
+
+.lang-btn:hover {
+    color: var(--color-text);
+    background: rgba(0,0,0,0.04);
+}
+
+.lang-btn.active {
+    background: var(--color-primary);
+    color: #fff;
+    box-shadow: 0 1px 3px rgba(45,80,22,0.3);
+}
+
+@media (max-width: 768px) {
+    .lang-switcher {
+        display: none;
+    }
+    .lang-switcher-mobile {
+        display: flex;
+        gap: 2px;
+        background: var(--color-bg-alt);
+        border-radius: 8px;
+        padding: 3px;
+        border: 1px solid var(--color-border-light);
+        margin-top: 12px;
+        justify-content: center;
+    }
+    .lang-switcher-mobile .lang-btn {
+        padding: 6px 12px;
+        border: none;
+        background: transparent;
+        color: var(--color-text-secondary);
+        font-size: 13px;
+        font-weight: 500;
+        cursor: pointer;
+        border-radius: 6px;
+        transition: all var(--transition);
+        font-family: var(--font-sans);
+        white-space: nowrap;
+    }
+    .lang-switcher-mobile .lang-btn:hover {
+        color: var(--color-text);
+        background: rgba(0,0,0,0.04);
+    }
+    .lang-switcher-mobile .lang-btn.active {
+        background: var(--color-primary);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(45,80,22,0.3);
+    }
+}
+
+/* ============================================
+   Herb Detail Modal
+   ============================================ */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(4px);
+    z-index: 1000;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+    overflow-y: auto;
+}
+
+.modal-overlay.active {
+    display: flex;
+}
+
+.modal {
+    background: var(--color-bg);
+    border-radius: 16px;
+    max-width: 800px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    animation: modalIn 0.3s ease;
+}
+
+@keyframes modalIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: rgba(255,255,255,0.9);
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text);
+    transition: all var(--transition);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.modal-close:hover {
+    background: #fff;
+    transform: scale(1.1);
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-hero {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 16px 16px 0 0;
+}
+
+.modal-hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.modal-hero-fallback {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 120px;
+    background: linear-gradient(135deg, var(--color-primary-bg), #e8f5e9);
+}
+
+.modal-content {
+    padding: 32px;
+}
+
+.modal-title {
+    font-family: var(--font-serif);
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 4px;
+}
+
+.modal-subtitle {
+    font-size: 16px;
+    color: var(--color-text-secondary);
+    margin-bottom: 24px;
+}
+
+.modal-section {
+    margin-bottom: 24px;
+}
+
+.modal-section h4 {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--color-primary);
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.modal-section p,
+.modal-section ul {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--color-text);
+}
+
+.modal-section ul {
+    padding-left: 20px;
+}
+
+.modal-section li {
+    margin-bottom: 8px;
+}
+
+.modal-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.modal-tag {
+    padding: 6px 14px;
+    background: var(--color-primary-bg);
+    color: var(--color-primary);
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.modal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.modal-info-card {
+    padding: 16px;
+    background: var(--color-bg-alt);
+    border-radius: 12px;
+    border: 1px solid var(--color-border-light);
+}
+
+.modal-info-card .label {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--color-text-tertiary);
+    margin-bottom: 6px;
+}
+
+.modal-info-card .value {
+    font-size: 14px;
+    color: var(--color-text);
+    line-height: 1.5;
+}
+
+.modal-research-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 20px;
+    background: var(--color-primary);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all var(--transition);
+}
+
+.modal-research-link:hover {
+    background: var(--color-primary-light);
+}
+
+/* Habitat section in modal */
+.modal-habitat {
+    background: linear-gradient(135deg, #f0f7ec, #e8f5e9);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 24px;
+    border: 1px solid rgba(45,80,22,0.1);
+}
+
+.modal-habitat h4 {
+    color: var(--color-primary);
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.modal-habitat p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--color-text);
+}
+
+.modal-habitat .growing-regions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 12px;
+}
+
+.modal-habitat .region-tag {
+    padding: 4px 10px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 12px;
+    font-size: 12px;
+    color: var(--color-primary);
+    border: 1px solid rgba(45,80,22,0.15);
+}
+
+@media (max-width: 600px) {
+    .modal {
+        margin: 10px;
+        border-radius: 12px;
+    }
+    .modal-hero {
+        height: 200px;
+        border-radius: 12px 12px 0 0;
+    }
+    .modal-content {
+        padding: 20px;
+    }
+    .modal-title {
+        font-size: 24px;
+    }
+    .modal-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Herb card click cursor */
+.herb-card {
+    cursor: pointer;
+}
+
+.herb-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+}
+
+/* Mobile nav language in hamburger */
+.nav-links .lang-switcher-mobile {
+    display: none;
+    padding: 16px;
+    border-top: 1px solid var(--color-border-light);
+    justify-content: center;
+}
+
+.nav-links.active .lang-switcher-mobile {
+    display: flex;
+}
