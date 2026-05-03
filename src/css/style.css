@@ -361,9 +361,30 @@ body {
     background: var(--color-bg);
     border: 1px solid var(--color-border-light);
     border-radius: 12px;
-    padding: var(--space-xl);
+    overflow: hidden;
     transition: all var(--transition);
     cursor: pointer;
+}
+
+.herb-card-img {
+    height: 180px;
+    overflow: hidden;
+    background: linear-gradient(135deg, var(--color-primary-bg), #e8f5e9);
+}
+
+.herb-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.herb-card:hover .herb-card-img img {
+    transform: scale(1.05);
+}
+
+.herb-card-body {
+    padding: var(--space-xl);
 }
 
 .herb-card:hover {
@@ -551,6 +572,7 @@ body {
     border-radius: 12px;
     overflow: hidden;
     transition: all var(--transition);
+    cursor: pointer;
 }
 
 .tea-card:hover {
@@ -618,6 +640,7 @@ body {
     border-radius: 12px;
     padding: var(--space-xl);
     transition: all var(--transition);
+    cursor: pointer;
 }
 
 .basic-card:hover {
@@ -860,8 +883,37 @@ body {
     .lang-switcher {
         display: none;
     }
-    .nav-links.active + .lang-switcher-mobile {
+    .lang-switcher-mobile {
         display: flex;
+        gap: 2px;
+        background: var(--color-bg-alt);
+        border-radius: 8px;
+        padding: 3px;
+        border: 1px solid var(--color-border-light);
+        margin-top: 12px;
+        justify-content: center;
+    }
+    .lang-switcher-mobile .lang-btn {
+        padding: 6px 12px;
+        border: none;
+        background: transparent;
+        color: var(--color-text-secondary);
+        font-size: 13px;
+        font-weight: 500;
+        cursor: pointer;
+        border-radius: 6px;
+        transition: all var(--transition);
+        font-family: var(--font-sans);
+        white-space: nowrap;
+    }
+    .lang-switcher-mobile .lang-btn:hover {
+        color: var(--color-text);
+        background: rgba(0,0,0,0.04);
+    }
+    .lang-switcher-mobile .lang-btn.active {
+        background: var(--color-primary);
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(45,80,22,0.3);
     }
 }
 

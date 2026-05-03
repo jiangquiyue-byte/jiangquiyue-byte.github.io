@@ -359,6 +359,100 @@ function closeHerbModal() {
 }
 
 // ============================================
+// Tea Recipes Data
+// ============================================
+const teaRecipes = {
+    'astragalus': {
+        name: 'Astragalus Immune Tea',
+        chinese: '黄芪养生茶',
+        emoji: '🍵',
+        tag: 'Immunity',
+        time: '15 min',
+        ingredients: '3 ingredients',
+        description: 'A classic Chinese herbal tea for strengthening Qi and boosting immunity. This gentle, slightly sweet tea is perfect for daily wellness, especially during cold and flu season.',
+        ingredientList: [
+            '10g Astragalus root slices (黄芪)',
+            '5 Goji berries (枸杞)',
+            '3 Red dates (红枣), pitted'
+        ],
+        instructions: '1. Rinse all ingredients under cold water.<br>2. Add 500ml water to a pot and bring to a boil.<br>3. Add Astragalus and red dates, reduce heat and simmer for 10 minutes.<br>4. Add Goji berries in the last 2 minutes.<br>5. Strain and serve. Can be re-steeped 2-3 times.',
+        benefits: ['Strengthens immune system', 'Boosts energy and vitality', 'Supports heart health', 'Anti-aging properties'],
+        bestTime: 'Morning or early afternoon'
+    },
+    'goji-sleep': {
+        name: 'Chamomile & Goji Sleep Tea',
+        chinese: '甘菊枸杞安眠茶',
+        emoji: '🌙',
+        tag: 'Sleep',
+        time: '10 min',
+        ingredients: '4 ingredients',
+        description: 'A calming bedtime blend that combines the relaxing properties of chamomile with the nourishing benefits of Goji berries. Perfect for winding down after a long day.',
+        ingredientList: [
+            '2g dried chamomile flowers (甘菊)',
+            '5 Goji berries (枸杞)',
+            '1 tsp honey (optional)',
+            '2 dried longan (龙眼)'
+        ],
+        instructions: '1. Boil 400ml water and let cool to 85°C.<br>2. Add chamomile and longan to a cup.<br>3. Pour hot water over ingredients.<br>4. Steep for 5-7 minutes with a lid.<br>5. Add Goji berries and honey in the last minute.<br>6. Drink 30 minutes before bed.',
+        benefits: ['Promotes restful sleep', 'Calms the mind', 'Reduces anxiety', 'Nourishes the eyes'],
+        bestTime: '30 minutes before bed'
+    },
+    'ginseng-energy': {
+        name: 'Ginseng & Red Date Energy Tea',
+        chinese: '人参红枣补气茶',
+        emoji: '❤️',
+        tag: 'Energy',
+        time: '20 min',
+        ingredients: '3 ingredients',
+        description: 'A powerful energy-boosting tea that provides natural vitality without the crash of coffee. Ginseng is the king of Chinese herbs for a reason — it truly revitalizes.',
+        ingredientList: [
+            '3-5g Ginseng slices (人参)',
+            '5 Red dates (红枣), pitted',
+            '10g Goji berries (枸杞)'
+        ],
+        instructions: '1. Rinse Ginseng slices briefly with warm water.<br>2. Add 600ml water to a pot.<br>3. Add Ginseng and red dates, bring to a boil.<br>4. Reduce heat and simmer for 15 minutes.<br>5. Add Goji berries in the last 3 minutes.<br>6. Strain and serve. Best consumed in the morning.',
+        benefits: ['Natural energy boost', 'Enhances cognitive function', 'Strengthens immunity', 'Supports adrenal health'],
+        bestTime: 'Morning, before noon'
+    }
+};
+
+// TCM Basics Data
+const basicsData = {
+    'yinyang': {
+        name: 'Yin & Yang',
+        chinese: '阴阳',
+        emoji: '☯️',
+        description: 'The fundamental duality of the universe. In TCM, health is maintained when Yin (cool, passive, nourishing) and Yang (warm, active, transforming) are in balance within the body.',
+        details: 'Yin and Yang are not opposing forces — they are complementary. Every organ has both Yin and Yang aspects. For example, the stomach\'s Yin is its mucous lining (nourishing), while its Yang is its digestive fire (transforming). When Yin is deficient, you may feel hot, restless, or dry. When Yang is deficient, you may feel cold, tired, or sluggish.',
+        applications: ['Dietary balance (cooling vs warming foods)', 'Lifestyle adjustments by season', 'Understanding disease patterns', 'Guiding herbal prescriptions']
+    },
+    'qi': {
+        name: 'Qi (Vital Energy)',
+        chinese: '气',
+        emoji: '🌀',
+        description: 'The life force that flows through all living things. When Qi flows freely, the body is healthy. When Qi is blocked or deficient, illness occurs.',
+        details: 'Qi has multiple functions: it transforms (digestion), transports (circulation), holds (organ position), protects (immune defense), and warms (body temperature). There are different types of Qi — Yuan Qi (original/ancestral), Gu Qi (food Qi), Kong Qi (air Qi), and Ying Qi (nutritive Qi). Acupressure works by stimulating Qi flow along meridians.',
+        applications: ['Breathing exercises (Qi Gong)', 'Dietary therapy', 'Acupressure and acupuncture', 'Movement practices (Tai Chi)']
+    },
+    'five-elements': {
+        name: 'Five Elements',
+        chinese: '五行',
+        emoji: '🔥',
+        description: 'Wood, Fire, Earth, Metal, Water — each element corresponds to specific organs, emotions, colors, seasons, and tastes in the body.',
+        details: 'The Five Elements form a cycle of creation (Wood feeds Fire, Fire creates Earth/ash, Earth bears Metal, Metal collects Water, Water nourishes Wood) and a cycle of control (Wood parts Earth, Earth dams Water, Water extinguishes Fire, Fire melts Metal, Metal cuts Wood). Understanding these cycles helps practitioners diagnose imbalances and design treatments.',
+        applications: ['Diagnostic framework', 'Herbal selection by element', 'Emotional healing', 'Seasonal wellness practices']
+    },
+    'meridians': {
+        name: 'Meridian System',
+        chinese: '经络',
+        emoji: '🫀',
+        description: 'The network of energy pathways connecting the body. There are 12 primary meridians, each associated with a major organ. Acupressure points lie along these meridians.',
+        details: 'The 12 primary meridians form a continuous loop through the body: Lung → Large Intestine → Stomach → Spleen → Heart → Small Intestine → Bladder → Kidney → Pericardium → Triple Heater → Gallbladder → Liver. There are also 8 extraordinary meridians that act as reservoirs. When a meridian is blocked, the corresponding organ system is affected.',
+        applications: ['Acupressure point selection', 'Understanding pain patterns', 'Organ system diagnosis', 'Energy healing practices']
+    }
+};
+
+// ============================================
 // DOM Ready
 // ============================================
 document.addEventListener('DOMContentLoaded', () => {
@@ -368,6 +462,8 @@ document.addEventListener('DOMContentLoaded', () => {
     initBodyMap();
     initPointCards();
     initModal();
+    initTeaCards();
+    initBasicCards();
 });
 
 function initModal() {
@@ -425,21 +521,30 @@ function renderHerbs(category = 'all') {
         ? herbsData 
         : herbsData.filter(h => h.category === category);
 
-    grid.innerHTML = filtered.map(herb => `
+    grid.innerHTML = filtered.map(herb => {
+        const photoUrl = herbPhotos[herb.id] || '';
+        return `
         <div class="herb-card" data-category="${herb.category}" data-herb-id="${herb.id}">
-            <div class="herb-card-header">
-                <div class="herb-icon" style="background: ${herb.iconBg}">${herb.icon}</div>
-                <div>
-                    <h3>${herb.name}</h3>
-                    <span class="herb-chinese">${herb.chinese}</span>
+            <div class="herb-card-img">
+                <img src="${photoUrl}" alt="${herb.name}" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div class="herb-card-img-fallback" style="display:none; font-size:48px; width:100%; height:100%; align-items:center; justify-content:center; background:${herb.iconBg}">${herb.icon}</div>
+            </div>
+            <div class="herb-card-body">
+                <div class="herb-card-header">
+                    <div class="herb-icon" style="background: ${herb.iconBg}">${herb.icon}</div>
+                    <div>
+                        <h3>${herb.name}</h3>
+                        <span class="herb-chinese">${herb.chinese}</span>
+                    </div>
+                </div>
+                <p>${herb.description}</p>
+                <div class="herb-tags">
+                    ${herb.benefits.map(b => `<span class="herb-tag">${b}</span>`).join('')}
                 </div>
             </div>
-            <p>${herb.description}</p>
-            <div class="herb-tags">
-                ${herb.benefits.map(b => `<span class="herb-tag">${b}</span>`).join('')}
-            </div>
         </div>
-    `).join('');
+        `;
+    }).join('');
 
     // Add click handlers — open modal with real photos
     grid.querySelectorAll('.herb-card').forEach(card => {
@@ -532,3 +637,118 @@ document.querySelector('.newsletter-form')?.addEventListener('submit', (e) => {
     alert(`Thank you for subscribing with ${email}! We'll send you weekly TCM insights.`);
     e.target.reset();
 });
+
+// ============================================
+// Tea Cards
+// ============================================
+function initTeaCards() {
+    document.querySelectorAll('.tea-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const teaId = card.dataset.tea;
+            if (teaId) openTeaModal(teaId);
+        });
+    });
+}
+
+function openTeaModal(teaId) {
+    const tea = teaRecipes[teaId];
+    if (!tea) return;
+
+    const modal = document.getElementById('herb-modal');
+    const modalBody = document.getElementById('modal-body');
+    if (!modal || !modalBody) return;
+
+    modalBody.innerHTML = `
+        <div class="modal-hero" style="background: linear-gradient(135deg, #e8f5e9, #c8e6c9); display:flex; align-items:center; justify-content:center;">
+            <span style="font-size: 100px;">${tea.emoji}</span>
+        </div>
+        <div class="modal-content">
+            <h2 class="modal-title">${tea.name}</h2>
+            <p class="modal-subtitle">${tea.chinese}</p>
+            <div class="modal-tags">
+                <span class="modal-tag">${tea.tag}</span>
+                <span class="modal-tag">⏱ ${tea.time}</span>
+                <span class="modal-tag">🌱 ${tea.ingredients}</span>
+            </div>
+            
+            <div class="modal-section">
+                <h4>📖 About This Tea</h4>
+                <p>${tea.description}</p>
+            </div>
+            
+            <div class="modal-section">
+                <h4>🥄 Ingredients</h4>
+                <ul>${tea.ingredientList.map(i => `<li>${i}</li>`).join('')}</ul>
+            </div>
+            
+            <div class="modal-section">
+                <h4>📝 Instructions</h4>
+                <p>${tea.instructions}</p>
+            </div>
+            
+            <div class="modal-section">
+                <h4>✅ Benefits</h4>
+                <ul>${tea.benefits.map(b => `<li>${b}</li>`).join('')}</ul>
+            </div>
+            
+            <div class="modal-section">
+                <h4>⏰ Best Time</h4>
+                <p>${tea.bestTime}</p>
+            </div>
+        </div>
+    `;
+
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+// ============================================
+// Basic Cards (TCM Fundamentals)
+// ============================================
+function initBasicCards() {
+    document.querySelectorAll('.basic-card').forEach((card, index) => {
+        const keys = ['yinyang', 'qi', 'five-elements', 'meridians'];
+        card.style.cursor = 'pointer';
+        card.addEventListener('click', () => {
+            const key = keys[index];
+            if (key) openBasicModal(key);
+        });
+    });
+}
+
+function openBasicModal(basicId) {
+    const basic = basicsData[basicId];
+    if (!basic) return;
+
+    const modal = document.getElementById('herb-modal');
+    const modalBody = document.getElementById('modal-body');
+    if (!modal || !modalBody) return;
+
+    modalBody.innerHTML = `
+        <div class="modal-hero" style="background: linear-gradient(135deg, #f5f5f5, #e0e0e0); display:flex; align-items:center; justify-content:center;">
+            <span style="font-size: 100px;">${basic.emoji}</span>
+        </div>
+        <div class="modal-content">
+            <h2 class="modal-title">${basic.name}</h2>
+            <p class="modal-subtitle">${basic.chinese}</p>
+            
+            <div class="modal-section">
+                <h4>📖 Overview</h4>
+                <p>${basic.description}</p>
+            </div>
+            
+            <div class="modal-section">
+                <h4>🔬 Deep Dive</h4>
+                <p>${basic.details}</p>
+            </div>
+            
+            <div class="modal-section">
+                <h4>💡 Practical Applications</h4>
+                <ul>${basic.applications.map(a => `<li>${a}</li>`).join('')}</ul>
+            </div>
+        </div>
+    `;
+
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}

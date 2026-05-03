@@ -24,9 +24,16 @@
                 <a href="#acupressure" data-i18n="nav.acupressure">Acupressure</a>
                 <a href="#teas" data-i18n="nav.teas">Tea Recipes</a>
                 <a href="#basics" data-i18n="nav.basics">TCM Basics</a>
+                <!-- Language Switcher (mobile) -->
+                <div class="lang-switcher-mobile">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="zh">中文</button>
+                    <button class="lang-btn" data-lang="ja">日本語</button>
+                    <button class="lang-btn" data-lang="fr">FR</button>
+                </div>
             </div>
             <div class="nav-right">
-                <!-- Language Switcher -->
+                <!-- Language Switcher (desktop) -->
                 <div class="lang-switcher">
                     <button class="lang-btn active" data-lang="en">EN</button>
                     <button class="lang-btn" data-lang="zh">中文</button>
@@ -194,42 +201,42 @@
             </div>
 
             <div class="teas-grid">
-                <article class="tea-card">
+                <article class="tea-card" data-tea="astragalus">
                     <div class="tea-card-img" style="background: linear-gradient(135deg, #e8f5e9, #c8e6c9);">
                         <span class="tea-emoji">🍵</span>
                     </div>
                     <div class="tea-card-body">
-                        <span class="tea-tag">Immunity</span>
-                        <h4>Astragalus Immune Tea</h4>
-                        <p>Boost your immune system with this classic Chinese herbal blend.</p>
+                        <span class="tea-tag" data-i18n="tea.immunity">Immunity</span>
+                        <h4 data-i18n="tea.astragalus.name">Astragalus Immune Tea</h4>
+                        <p data-i18n="tea.astragalus.desc">Boost your immune system with this classic Chinese herbal blend.</p>
                         <div class="tea-meta">
                             <span>⏱ 15 min</span>
                             <span>🌱 3 ingredients</span>
                         </div>
                     </div>
                 </article>
-                <article class="tea-card">
+                <article class="tea-card" data-tea="goji-sleep">
                     <div class="tea-card-img" style="background: linear-gradient(135deg, #fff3e0, #ffe0b2);">
                         <span class="tea-emoji">🌙</span>
                     </div>
                     <div class="tea-card-body">
-                        <span class="tea-tag">Sleep</span>
-                        <h4>Chamomile & Goji Sleep Tea</h4>
-                        <p>A gentle blend to calm the mind and promote restful sleep.</p>
+                        <span class="tea-tag" data-i18n="tea.sleep">Sleep</span>
+                        <h4 data-i18n="tea.goji.name">Chamomile & Goji Sleep Tea</h4>
+                        <p data-i18n="tea.goji.desc">A gentle blend to calm the mind and promote restful sleep.</p>
                         <div class="tea-meta">
                             <span>⏱ 10 min</span>
                             <span>🌱 4 ingredients</span>
                         </div>
                     </div>
                 </article>
-                <article class="tea-card">
+                <article class="tea-card" data-tea="ginseng-energy">
                     <div class="tea-card-img" style="background: linear-gradient(135deg, #fce4ec, #f8bbd0);">
                         <span class="tea-emoji">❤️</span>
                     </div>
                     <div class="tea-card-body">
-                        <span class="tea-tag">Energy</span>
-                        <h4>Ginseng & Red Date Energy Tea</h4>
-                        <p>Natural energy boost without the crash of coffee.</p>
+                        <span class="tea-tag" data-i18n="tea.energy">Energy</span>
+                        <h4 data-i18n="tea.ginseng.name">Ginseng & Red Date Energy Tea</h4>
+                        <p data-i18n="tea.ginseng.desc">Natural energy boost without the crash of coffee.</p>
                         <div class="tea-meta">
                             <span>⏱ 20 min</span>
                             <span>🌱 3 ingredients</span>
