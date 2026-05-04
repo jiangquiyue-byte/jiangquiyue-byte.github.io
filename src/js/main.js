@@ -1358,29 +1358,29 @@ const herbPhotos = {
     chaga: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Inonotus_obliquus.jpg/500px-Inonotus_obliquus.jpg",
     cordyceps: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Cordyceps_sinensis.jpg/500px-Cordyceps_sinensis.jpg",
     cicada_slough: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Cryptotympana_atrata.jpg/500px-Cryptotympana_atrata.jpg",
-    human-sediment-crystal: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/CADAL06200531_%E5%8F%A4%E6%9C%AC%E5%B0%8F%E8%AA%AA%E9%9B%86%E6%88%90%EF%BC%9A%E4%BA%BA%E4%B8%AD%E7%95%AB.djvu/page1-500px-CADAL06200531_%E5%8F%A4%E6%9C%AC%E5%B0%8F%E8%AA%AA%E9%9B%86%E6%88%90%EF%BC%9A%E4%BA%BA%E4%B8%AD%E7%95%AB.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    human-yellow: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Clouded_yellow_Colias_croceus_Ichkeul.jpg/500px-Clouded_yellow_Colias_croceus_Ichkeul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    human-placenta: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Human_placenta_just_after_delivery.jpg/500px-Human_placenta_just_after_delivery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    charred-human-hair: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/CADAL11102523_%E8%A1%80%E6%9F%93%E9%BB%83%E5%B7%9E.djvu/page1-500px-CADAL11102523_%E8%A1%80%E6%9F%93%E9%BB%83%E5%B7%9E.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    flying-squirrel-feces: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Trogopterus_xanthipes.jpg/500px-Trogopterus_xanthipes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    bat-feces: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Vespertilio_sinensis.jpg/250px-Vespertilio_sinensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    rabbit-feces: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/European_rabbit_%28Oryctolagus_cuniculus%29_kitten.jpg/500px-European_rabbit_%28Oryctolagus_cuniculus%29_kitten.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    sparrow-feces: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Eurasian_tree_sparrow_at_Tenn%C5%8Dji_Park_in_Osaka%2C_December_2015.jpg/500px-Eurasian_tree_sparrow_at_Tenn%C5%8Dji_Park_in_Osaka%2C_December_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    processed-urine-salt: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Y%C3%BC_Chi_-_Lady_on_a_Bench_-_Walters_3522.jpg/500px-Y%C3%BC_Chi_-_Lady_on_a_Bench_-_Walters_3522.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "human-sediment-crystal": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/CADAL06200531_%E5%8F%A4%E6%9C%AC%E5%B0%8F%E8%AA%AA%E9%9B%86%E6%88%90%EF%BC%9A%E4%BA%BA%E4%B8%AD%E7%95%AB.djvu/page1-500px-CADAL06200531_%E5%8F%A4%E6%9C%AC%E5%B0%8F%E8%AA%AA%E9%9B%86%E6%88%90%EF%BC%9A%E4%BA%BA%E4%B8%AD%E7%95%AB.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "human-yellow": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Clouded_yellow_Colias_croceus_Ichkeul.jpg/500px-Clouded_yellow_Colias_croceus_Ichkeul.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "human-placenta": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Human_placenta_just_after_delivery.jpg/500px-Human_placenta_just_after_delivery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "charred-human-hair": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/CADAL11102523_%E8%A1%80%E6%9F%93%E9%BB%83%E5%B7%9E.djvu/page1-500px-CADAL11102523_%E8%A1%80%E6%9F%93%E9%BB%83%E5%B7%9E.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "flying-squirrel-feces": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Trogopterus_xanthipes.jpg/500px-Trogopterus_xanthipes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "bat-feces": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Vespertilio_sinensis.jpg/250px-Vespertilio_sinensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "rabbit-feces": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/European_rabbit_%28Oryctolagus_cuniculus%29_kitten.jpg/500px-European_rabbit_%28Oryctolagus_cuniculus%29_kitten.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "sparrow-feces": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Eurasian_tree_sparrow_at_Tenn%C5%8Dji_Park_in_Osaka%2C_December_2015.jpg/500px-Eurasian_tree_sparrow_at_Tenn%C5%8Dji_Park_in_Osaka%2C_December_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "processed-urine-salt": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Y%C3%BC_Chi_-_Lady_on_a_Bench_-_Walters_3522.jpg/500px-Y%C3%BC_Chi_-_Lady_on_a_Bench_-_Walters_3522.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     honey: "https://upload.wikimedia.org/wikipedia/commons/c/cb/Honey_Dale.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    royal-jelly: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/2-Decenedioic_acid.svg/500px-2-Decenedioic_acid.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "royal-jelly": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/2-Decenedioic_acid.svg/500px-2-Decenedioic_acid.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     propolis: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Propolis_in_beehives.jpg/500px-Propolis_in_beehives.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    deer-antler: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Meiogyne_pannosa_04.jpg/500px-Meiogyne_pannosa_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    ox-bezoar: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/HK_YTM_%E6%B2%B9%E5%B0%96%E6%97%BA_Yau_Tsim_Mong_%E6%97%BA%E8%A7%92_Mong_Kok_%E5%A5%B6%E8%B7%AF%E8%87%A3%E8%A1%97_6G_Nelson_Street_shop_%E9%BE%8D%E8%B1%90%E9%9B%86%E5%9C%98_Fung_Dispensary_Mall_October_2025_N13P_05.jpg/500px-HK_YTM_%E6%B2%B9%E5%B0%96%E6%97%BA_Yau_Tsim_Mong_%E6%97%BA%E8%A7%92_Mong_Kok_%E5%A5%B6%E8%B7%AF%E8%87%A3%E8%A1%97_6G_Nelson_Street_shop_%E9%BE%8D%E8%B1%90%E9%9B%86%E5%9C%98_Fung_Dispensary_Mall_October_2025_N13P_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    donkey-gelatin: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Donkey-hide_gelatin_%28E%27jiao%29_slices.jpg/500px-Donkey-hide_gelatin_%28E%27jiao%29_slices.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "deer-antler": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Meiogyne_pannosa_04.jpg/500px-Meiogyne_pannosa_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ox-bezoar": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/HK_YTM_%E6%B2%B9%E5%B0%96%E6%97%BA_Yau_Tsim_Mong_%E6%97%BA%E8%A7%92_Mong_Kok_%E5%A5%B6%E8%B7%AF%E8%87%A3%E8%A1%97_6G_Nelson_Street_shop_%E9%BE%8D%E8%B1%90%E9%9B%86%E5%9C%98_Fung_Dispensary_Mall_October_2025_N13P_05.jpg/500px-HK_YTM_%E6%B2%B9%E5%B0%96%E6%97%BA_Yau_Tsim_Mong_%E6%97%BA%E8%A7%92_Mong_Kok_%E5%A5%B6%E8%B7%AF%E8%87%A3%E8%A1%97_6G_Nelson_Street_shop_%E9%BE%8D%E8%B1%90%E9%9B%86%E5%9C%98_Fung_Dispensary_Mall_October_2025_N13P_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "donkey-gelatin": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Donkey-hide_gelatin_%28E%27jiao%29_slices.jpg/500px-Donkey-hide_gelatin_%28E%27jiao%29_slices.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     musk: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Muskox_%28Ovibos_moschatus%29_male_Dovrefjell_1.jpg/500px-Muskox_%28Ovibos_moschatus%29_male_Dovrefjell_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    bear-bile: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Bear_bile_01.jpg/500px-Bear_bile_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "bear-bile": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Bear_bile_01.jpg/500px-Bear_bile_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     pearl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/500px-1665_Girl_with_a_Pearl_Earring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     seahorse: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Hippocampus_hippocampus_%28on_Ascophyllum_nodosum%29.jpg/500px-Hippocampus_hippocampus_%28on_Ascophyllum_nodosum%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     moringa: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flower_of_Moringa_oleifera.jpg/500px-Flower_of_Moringa_oleifera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     psyllium: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/CADAL06211067_%E5%8D%81%E5%AD%90%E5%85%A8%E6%9B%B8%EF%BC%9A%E8%8D%80%E5%AD%90.djvu/page1-500px-CADAL06211067_%E5%8D%81%E5%AD%90%E5%85%A8%E6%9B%B8%EF%BC%9A%E8%8D%80%E5%AD%90.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    chicken-gizzard: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CADAL06211660_%E5%A2%A8%E6%B5%B7%E9%87%91%E5%A3%BA%EF%BC%9A%E6%BA%96%E9%BD%8B%E9%9B%9C%E8%AA%AA%E5%A2%A8%E6%B5%B7%E9%87%91%E5%A3%BA%EF%BC%9A%E5%85%A7%E8%A8%93.djvu/page1-500px-CADAL06211660_%E5%A2%A8%E6%B5%B7%E9%87%91%E5%A3%BA%EF%BC%9A%E6%BA%96%E9%BD%8B%E9%9B%9C%E8%AA%AA%E5%A2%A8%E6%B5%B7%E9%87%91%E5%A3%BA%EF%BC%9A%E5%85%A7%E8%A8%93.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    silkworm-feces: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/CADAL11100309_%E7%A0%82%E4%B8%81.djvu/page1-500px-CADAL11100309_%E7%A0%82%E4%B8%81.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "chicken-gizzard": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/CADAL06211660_%E5%A2%A8%E6%B5%B7%E9%87%91%E5%A3%BA%EF%BC%9A%E6%BA%96%E9%BD%8B%E9%9B%9C%E8%AA%AA%E5%A2%A8%E6%B5%B7%E9%87%91%E5%A3%BA%EF%BC%9A%E5%85%A7%E8%A8%93.djvu/page1-500px-CADAL06211660_%E5%A2%A8%E6%B5%B7%E9%87%91%E5%A3%BA%EF%BC%9A%E6%BA%96%E9%BD%8B%E9%9B%9C%E8%AA%AA%E5%A2%A8%E6%B5%B7%E9%87%91%E5%A3%BA%EF%BC%9A%E5%85%A7%E8%A8%93.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "silkworm-feces": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/CADAL11100309_%E7%A0%82%E4%B8%81.djvu/page1-500px-CADAL11100309_%E7%A0%82%E4%B8%81.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
 };
 
 
@@ -1454,29 +1454,29 @@ const herbHabitat = {
     chaga: "Origin: Siberia, Northern Europe, North America. Parts used: Sclerotium. Nature: Cool. Flavor: Bitter, Sweet. Meridians: Spleen, Liver, Heart.",
     cordyceps: "Origin: Tibet, China, Nepal. Parts used: Fruiting body, Stroma. Nature: Warm. Flavor: Sweet. Meridians: Lung, Kidney.",
     cicada_slough: "Origin: China, East Asia. Parts used: Exuviae. Nature: Cool. Flavor: Sweet. Meridians: Liver, Lung.",
-    human-sediment-crystal: "Origin: China. Parts used: Urine sediment. Nature: Cold. Flavor: Salty. Meridians: Liver, Lung, Stomach.",
-    human-yellow: "Origin: China. Parts used: Processed feces. Nature: Cold. Flavor: Sweet, Bitter. Meridians: Heart, Stomach.",
-    human-placenta: "Origin: China. Parts used: Placenta. Nature: Warm. Flavor: Sweet, Salty. Meridians: Lung, Liver, Kidney.",
-    charred-human-hair: "Origin: China. Parts used: Carbonized hair. Nature: Neutral. Flavor: Bitter. Meridians: Liver, Stomach.",
-    flying-squirrel-feces: "Origin: Northeast China, Hebei. Parts used: Dried feces. Nature: Warm. Flavor: Bitter, Sweet, Salty. Meridians: Liver, Spleen.",
-    bat-feces: "Origin: China, Japan. Parts used: Dried feces. Nature: Cold. Flavor: Xin. Meridians: Liver.",
-    rabbit-feces: "Origin: China. Parts used: Dried feces. Nature: Neutral. Flavor: Xin. Meridians: Liver, Lung.",
-    sparrow-feces: "Origin: China. Parts used: Dried feces. Nature: Warm. Flavor: Ku, Xin. Meridians: Liver, Kidney.",
-    processed-urine-salt: "Origin: China. Parts used: Crystallized salt. Nature: Cold. Flavor: Xian. Meridians: Kidney, Lung.",
+    "human-sediment-crystal": "Origin: China. Parts used: Urine sediment. Nature: Cold. Flavor: Salty. Meridians: Liver, Lung, Stomach.",
+    "human-yellow": "Origin: China. Parts used: Processed feces. Nature: Cold. Flavor: Sweet, Bitter. Meridians: Heart, Stomach.",
+    "human-placenta": "Origin: China. Parts used: Placenta. Nature: Warm. Flavor: Sweet, Salty. Meridians: Lung, Liver, Kidney.",
+    "charred-human-hair": "Origin: China. Parts used: Carbonized hair. Nature: Neutral. Flavor: Bitter. Meridians: Liver, Stomach.",
+    "flying-squirrel-feces": "Origin: Northeast China, Hebei. Parts used: Dried feces. Nature: Warm. Flavor: Bitter, Sweet, Salty. Meridians: Liver, Spleen.",
+    "bat-feces": "Origin: China, Japan. Parts used: Dried feces. Nature: Cold. Flavor: Xin. Meridians: Liver.",
+    "rabbit-feces": "Origin: China. Parts used: Dried feces. Nature: Neutral. Flavor: Xin. Meridians: Liver, Lung.",
+    "sparrow-feces": "Origin: China. Parts used: Dried feces. Nature: Warm. Flavor: Ku, Xin. Meridians: Liver, Kidney.",
+    "processed-urine-salt": "Origin: China. Parts used: Crystallized salt. Nature: Cold. Flavor: Xian. Meridians: Kidney, Lung.",
     honey: "Origin: Global. Parts used: Honey. Nature: Neutral. Flavor: Sweet. Meridians: Spleen, Lung, Large Intestine.",
-    royal-jelly: "Origin: Global. Parts used: Glandular secretion. Nature: Neutral. Flavor: Sweet, Sour. Meridians: Liver, Kidney.",
+    "royal-jelly": "Origin: Global. Parts used: Glandular secretion. Nature: Neutral. Flavor: Sweet, Sour. Meridians: Liver, Kidney.",
     propolis: "Origin: Global. Parts used: Bee glue. Nature: Warm. Flavor: Bitter, Xin. Meridians: Spleen, Lung.",
-    deer-antler: "Origin: China, Russia, Korea, New Zealand. Parts used: Young antler. Nature: Warm. Flavor: Sweet, Salty. Meridians: Liver, Kidney.",
-    ox-bezoar: "Origin: China, India, Australia. Parts used: Gallstone. Nature: Cool. Flavor: Bitter, Sweet. Meridians: Heart, Liver.",
-    donkey-gelatin: "Origin: Shandong, China. Parts used: Skin gelatin. Nature: Neutral. Flavor: Sweet. Meridians: Lung, Liver, Kidney.",
+    "deer-antler": "Origin: China, Russia, Korea, New Zealand. Parts used: Young antler. Nature: Warm. Flavor: Sweet, Salty. Meridians: Liver, Kidney.",
+    "ox-bezoar": "Origin: China, India, Australia. Parts used: Gallstone. Nature: Cool. Flavor: Bitter, Sweet. Meridians: Heart, Liver.",
+    "donkey-gelatin": "Origin: Shandong, China. Parts used: Skin gelatin. Nature: Neutral. Flavor: Sweet. Meridians: Lung, Liver, Kidney.",
     musk: "Origin: Himalayas, China, Nepal, Russia. Parts used: Glandular secretion. Nature: Warm. Flavor: Xin. Meridians: Heart, Spleen, Liver.",
-    bear-bile: "Origin: China, Korea, Southeast Asia. Parts used: Bile. Nature: Cold. Flavor: Bitter. Meridians: Liver, Gallbladder, Heart.",
+    "bear-bile": "Origin: China, Korea, Southeast Asia. Parts used: Bile. Nature: Cold. Flavor: Bitter. Meridians: Liver, Gallbladder, Heart.",
     pearl: "Origin: China, Japan, Australia. Parts used: Pearl. Nature: Cold. Flavor: Sweet, Xian. Meridians: Heart, Liver.",
     seahorse: "Origin: Indo-Pacific, South China Sea. Parts used: Whole dried animal. Nature: Warm. Flavor: Sweet, Salty. Meridians: Liver, Kidney.",
     moringa: "Origin: India, Africa. Parts used: Leaves, Seeds, Pods. Nature: Warm. Flavor: Sweet, Pungent. Meridians: Spleen, Liver, Kidney.",
     psyllium: "Origin: India, Mediterranean. Parts used: Seed husk. Nature: Neutral. Flavor: Sweet, Bland. Meridians: Large Intestine, Small Intestine, Kidney.",
-    chicken-gizzard: "Origin: Global. Parts used: Gizzard lining membrane. Nature: Neutral. Flavor: Sweet. Meridians: Spleen, Stomach, Small Intestine, Bladder.",
-    silkworm-feces: "Origin: China, Japan, India. Parts used: Dried feces. Nature: Warm. Flavor: Sweet, Xin. Meridians: Liver, Spleen, Stomach.",
+    "chicken-gizzard": "Origin: Global. Parts used: Gizzard lining membrane. Nature: Neutral. Flavor: Sweet. Meridians: Spleen, Stomach, Small Intestine, Bladder.",
+    "silkworm-feces": "Origin: China, Japan, India. Parts used: Dried feces. Nature: Warm. Flavor: Sweet, Xin. Meridians: Liver, Spleen, Stomach.",
 };
 
 
@@ -1550,29 +1550,29 @@ const herbFullDesc = {
     chaga: "Inonotus obliquus. ['Antioxidant powerhouse', 'Immune support', 'Anti-inflammatory']. Called 'King of Mushrooms' in Siberian folk medicine. Extremely high ORAC antioxidant score.",
     cordyceps: "Ophiocordyceps sinensis. ['Energy & stamina', 'Lung support', 'Kidney tonification']. One of the most prized TCM herbs for energy, respiratory health, and kidney support. Used by athletes for performance.",
     cicada_slough: "Cryptotympana atrata. ['Anti-itch', 'Voice improvement', 'Eye clearing']. Used for sore throat, hoarse voice, itchy skin rashes, and eye conditions in TCM.",
-    human-sediment-crystal: "Homo sapiens (urine crystallized). Clears heat, cools blood, reduces swelling. Sore throat, bleeding gums, fevers, ulcers",
-    human-yellow: "Homo sapiens (feces processed). Clears heat, detoxifies, cools blood. High fever, delirium, toxic sores, skin infections",
-    human-placenta: "Homo sapiens placenta. Tonifies Qi and blood, nourishes essence. Infertility, chronic weakness, asthma, impotence",
-    charred-human-hair: "Homo sapiens hair carbonized. Stops bleeding, promotes urination, generates flesh. Bleeding, dysuria, chronic ulcers",
-    flying-squirrel-feces: "Trogopterus xanthipes. Activates blood, alleviates pain, stops bleeding. Pain from blood stasis, amenorrhea, bleeding",
-    bat-feces: "Vespertilio superans. Clears liver, brightens eyes, disperses stasis. Night blindness, eye inflammation, cataracts",
-    rabbit-feces: "Oryctolagus cuniculus. Brightens eyes, clears lung heat. Night blindness, eye翳膜, cough",
-    sparrow-feces: "Passer montanus. Detoxifies, reduces swelling, disperses accumulation. Carbuncles, throat blockage, food accumulation",
-    processed-urine-salt: "Homo sapiens urine + salt. Nourishes yin, reduces fever, consolidates essence. Tidal fever, chronic cough, seminal emission",
+    "human-sediment-crystal": "Homo sapiens (urine crystallized). Clears heat, cools blood, reduces swelling. Sore throat, bleeding gums, fevers, ulcers",
+    "human-yellow": "Homo sapiens (feces processed). Clears heat, detoxifies, cools blood. High fever, delirium, toxic sores, skin infections",
+    "human-placenta": "Homo sapiens placenta. Tonifies Qi and blood, nourishes essence. Infertility, chronic weakness, asthma, impotence",
+    "charred-human-hair": "Homo sapiens hair carbonized. Stops bleeding, promotes urination, generates flesh. Bleeding, dysuria, chronic ulcers",
+    "flying-squirrel-feces": "Trogopterus xanthipes. Activates blood, alleviates pain, stops bleeding. Pain from blood stasis, amenorrhea, bleeding",
+    "bat-feces": "Vespertilio superans. Clears liver, brightens eyes, disperses stasis. Night blindness, eye inflammation, cataracts",
+    "rabbit-feces": "Oryctolagus cuniculus. Brightens eyes, clears lung heat. Night blindness, eye翳膜, cough",
+    "sparrow-feces": "Passer montanus. Detoxifies, reduces swelling, disperses accumulation. Carbuncles, throat blockage, food accumulation",
+    "processed-urine-salt": "Homo sapiens urine + salt. Nourishes yin, reduces fever, consolidates essence. Tidal fever, chronic cough, seminal emission",
     honey: "Apis mellifera. Moisturizes lungs, detoxifies, nourishes spleen. Cough, dry skin, constipation, wound healing",
-    royal-jelly: "Apis mellifera secretion. Boosts immunity, anti-aging, enhances fertility. Fatigue, infertility, menopause, immune weakness",
+    "royal-jelly": "Apis mellifera secretion. Boosts immunity, anti-aging, enhances fertility. Fatigue, infertility, menopause, immune weakness",
     propolis: "Apis mellifera resin. Antimicrobial, anti-inflammatory, immune boost. Oral health, wound healing, cold sores, infections",
-    deer-antler: "Cervus nippon / Cervus elaphus. Tonifies yang, strengthens bones, nourishes blood. Impotence, infertility, weakness, anemia, developmental delays",
-    ox-bezoar: "Bos taurus gallstone. Clears heat, opens orifices, calms spirit. High fever, coma, convulsions, sore throat",
-    donkey-gelatin: "Equus asinus skin. Tonifies blood, stops bleeding, moisturizes lungs. Anemia, dry cough, uterine bleeding, dizziness",
+    "deer-antler": "Cervus nippon / Cervus elaphus. Tonifies yang, strengthens bones, nourishes blood. Impotence, infertility, weakness, anemia, developmental delays",
+    "ox-bezoar": "Bos taurus gallstone. Clears heat, opens orifices, calms spirit. High fever, coma, convulsions, sore throat",
+    "donkey-gelatin": "Equus asinus skin. Tonifies blood, stops bleeding, moisturizes lungs. Anemia, dry cough, uterine bleeding, dizziness",
     musk: "Moschus moschiferus. Opens orifices, activates blood, reduces swelling. Coma, pain, tumors, difficult labor",
-    bear-bile: "Ursus thibetanus. Clears heat, brightens eyes, stops spasms. Jaundice, gallstones, eye inflammation, febrile seizures",
+    "bear-bile": "Ursus thibetanus. Clears heat, brightens eyes, stops spasms. Jaundice, gallstones, eye inflammation, febrile seizures",
     pearl: "Pteria martensii / Hyriopsis cumingii. Brightens eyes, calms spirit, clears heat, generates skin. Eye disorders, insomnia, skin ulcers, epilepsy",
     seahorse: "Hippocampus spp.. Tonifies kidney yang, disperses masses, relieves pain. Impotence, infertility, asthma, pain, tumors",
     moringa: "Moringa oleifera. Anti-inflammatory, blood sugar regulation, rich in nutrients. Malnutrition, diabetes, inflammation, anemia",
     psyllium: "Plantago ovata. Bulk-forming laxative, lowers cholesterol, regulates blood sugar. Constipation, IBS, high cholesterol, hemorrhoids",
-    chicken-gizzard: "Gallus gallus domesticus. Strengthens stomach, aids digestion, dissolves stones. Indigestion, food stagnation, bedwetting, gallstones/kidney stones",
-    silkworm-feces: "Bombyx mori. Dispels wind-damp, harmonizes stomach, brightens eyes. Arthritis, cramps, eye redness, skin rashes",
+    "chicken-gizzard": "Gallus gallus domesticus. Strengthens stomach, aids digestion, dissolves stones. Indigestion, food stagnation, bedwetting, gallstones/kidney stones",
+    "silkworm-feces": "Bombyx mori. Dispels wind-damp, harmonizes stomach, brightens eyes. Arthritis, cramps, eye redness, skin rashes",
 };
 
 
@@ -1584,7 +1584,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initPointCards();
     initTeaCards();
     initModal();
-    initTeaCards();
     initBasicCards();
 });
 
@@ -1599,6 +1598,82 @@ function initModal() {
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') closeHerbModal();
     });
+}
+
+// ============================================
+// Herb Modal — Open / Close
+// ============================================
+function openHerbModal(herbId) {
+    const herb = herbsData.find(h => h.id === herbId);
+    if (!herb) return;
+
+    const modal = document.getElementById('herb-modal');
+    const modalBody = document.getElementById('modal-body');
+    if (!modal || !modalBody) return;
+
+    const photoUrl = herbPhotos[herb.id] || '';
+    // Benefits may be stored as stringified Python lists, e.g. "['a', 'b']"
+    const parseBenefits = (arr) => {
+        const items = [];
+        arr.forEach(b => {
+            if (typeof b === 'string' && b.startsWith('[')) {
+                try {
+                    // Try JSON parse (replace single quotes with double quotes)
+                    const parsed = JSON.parse(b.replace(/'/g, '"'));
+                    items.push(...parsed);
+                } catch {
+                    // Fallback: strip brackets and split
+                    const cleaned = b.replace(/^\[|\]$/g, '').split("', '").map(s => s.replace(/^'|'$/g, '').trim());
+                    items.push(...cleaned.filter(Boolean));
+                }
+            } else {
+                items.push(b);
+            }
+        });
+        return items;
+    };
+    const benefitsList = parseBenefits(herb.benefits).map(b => `<li>${b}</li>`).join('');
+
+    modalBody.innerHTML = `
+        <div class="modal-hero" style="background: linear-gradient(135deg, #e8f5e9, #c8e6c9); display:flex; align-items:center; justify-content:center; height:280px; overflow:hidden;">
+            ${photoUrl
+                ? `<img src="${photoUrl}" alt="${herb.name}" style="width:100%; height:100%; object-fit:cover;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"><span style="display:none; font-size:80px;">${herb.icon}</span>`
+                : `<span style="font-size:80px;">${herb.icon}</span>`
+            }
+        </div>
+        <div class="modal-content">
+            <h2 class="modal-title">${herb.name}</h2>
+            <p class="modal-subtitle">${herb.chinese}</p>
+            <p style="color: var(--color-text-secondary); margin-bottom: 8px; font-style: italic;">${herb.scientificName || ''}</p>
+            ${herb.origin ? `<p style="color: var(--color-text-secondary); margin-bottom: 16px;">📍 Origin: ${herb.origin}</p>` : ''}
+
+            <div class="modal-section">
+                <h4>📖 About</h4>
+                <p>${herb.description}</p>
+            </div>
+
+            <div class="modal-section">
+                <h4>✅ Benefits</h4>
+                <ul>${benefitsList}</ul>
+            </div>
+
+            ${herb.research ? `
+            <div class="modal-section">
+                <h4>🔬 Scientific Research</h4>
+                <p><a href="${herb.research}" target="_blank" rel="noopener" style="color: var(--color-primary);">View on PubMed →</a></p>
+            </div>` : ''}
+        </div>
+    `;
+
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeHerbModal() {
+    const modal = document.getElementById('herb-modal');
+    if (!modal) return;
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
 }
 
 // ============================================
@@ -1910,70 +1985,6 @@ document.querySelector('.newsletter-form')?.addEventListener('submit', (e) => {
     alert(`Thank you for subscribing with ${email}! We'll send you weekly TCM insights.`);
     e.target.reset();
 });
-
-// ============================================
-// Tea Cards
-// ============================================
-function initTeaCards() {
-    document.querySelectorAll('.tea-card').forEach(card => {
-        card.addEventListener('click', () => {
-            const teaId = card.dataset.tea;
-            if (teaId) openTeaModal(teaId);
-        });
-    });
-}
-
-function openTeaModal(teaId) {
-    const tea = teaRecipes[teaId];
-    if (!tea) return;
-
-    const modal = document.getElementById('herb-modal');
-    const modalBody = document.getElementById('modal-body');
-    if (!modal || !modalBody) return;
-
-    modalBody.innerHTML = `
-        <div class="modal-hero" style="background: linear-gradient(135deg, #e8f5e9, #c8e6c9); display:flex; align-items:center; justify-content:center;">
-            <span style="font-size: 100px;">${tea.emoji}</span>
-        </div>
-        <div class="modal-content">
-            <h2 class="modal-title">${tea.name}</h2>
-            <p class="modal-subtitle">${tea.chinese}</p>
-            <div class="modal-tags">
-                <span class="modal-tag">${tea.tag}</span>
-                <span class="modal-tag">⏱ ${tea.time}</span>
-                <span class="modal-tag">🌱 ${tea.ingredients}</span>
-            </div>
-            
-            <div class="modal-section">
-                <h4>📖 About This Tea</h4>
-                <p>${tea.description}</p>
-            </div>
-            
-            <div class="modal-section">
-                <h4>🥄 Ingredients</h4>
-                <ul>${tea.ingredientList.map(i => `<li>${i}</li>`).join('')}</ul>
-            </div>
-            
-            <div class="modal-section">
-                <h4>📝 Instructions</h4>
-                <p>${tea.instructions}</p>
-            </div>
-            
-            <div class="modal-section">
-                <h4>✅ Benefits</h4>
-                <ul>${tea.benefits.map(b => `<li>${b}</li>`).join('')}</ul>
-            </div>
-            
-            <div class="modal-section">
-                <h4>⏰ Best Time</h4>
-                <p>${tea.bestTime}</p>
-            </div>
-        </div>
-    `;
-
-    modal.classList.add('active');
-    document.body.style.overflow = 'hidden';
-}
 
 // ============================================
 // Basic Cards (TCM Fundamentals)
